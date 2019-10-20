@@ -9,6 +9,8 @@
 
 #define word_length 10
 
+// Test commit/push
+
 int main(int argc, char* argv[])
 {
   int nwords;
