@@ -111,13 +111,11 @@ int main(int argc, char* argv[])
       while (recCounter < numtasks-1)
       {
         MPI_Recv(&hitBuf, 100, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, &Status );
-      //  printf("hitBuf 1st: %d, hitBuf 2nd: %d\n", hitBuf[0], hitBuf[1]);
         recCounter++;
         for ( k = 0; k < 99; k++)
         {
-          if(hitBuf[k] != -1)
+          if(hitBuf[k] != -1) // means if there is n hits, print first n entries
           {
-        //    printf(" %s, ", hitBuf[k]);
             printf(", %d", hitBuf[k]);
           }
         }
@@ -127,7 +125,6 @@ int main(int argc, char* argv[])
       {
         hitBuf[k] = -1;
       }
-      // don't forget to reset hitBuf here.
     }
     else
     {
