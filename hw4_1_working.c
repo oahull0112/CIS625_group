@@ -9,6 +9,8 @@
 
 #define word_length 10
 
+double myclock();
+
 int main(int argc, char* argv[])
 {
   int nwords;
@@ -31,11 +33,15 @@ int main(int argc, char* argv[])
   int hitBuf[100] = {-1};
   MPI_Status Status;
 
+
   rc = MPI_Init(&argc, &argv);
   if ( rc != MPI_SUCCESS){
     printf("Error starting MPI program. Terminating \n");
     MPI_Abort(MPI_COMM_WORLD, rc);
   }
+
+  tstart = myclock(); // set the zero time
+  tstart = myclock(); // start the clock
 
   MPI_Comm_size(MPI_COMM_WORLD, &numtasks); // how many tasks?
   MPI_Comm_rank(MPI_COMM_WORLD, &rank); // my MPI id
@@ -150,7 +156,26 @@ int main(int argc, char* argv[])
 //      once all indices have been received, dump out to the display
 // // do a for-loop here with MPI broadcast?
   }
+
+  ttotal = myclock() - tstart;
+
+  if (rank == 0)
+  {
+    printf("\n");
+    printf("DATA, 1, %lf\n", ttotal);
+  }
   
   MPI_Finalize();
   return 0;
 } // end of main
+
+double myclock() {
+  static time_t t_start = 0;  // Save and subtract off each time
+  struct timespec ts; 
+
+  clock_gettime(CLOCK_REALTIME, &ts);
+  if( t_start == 0 ) t_start = ts.tv_sec;
+
+  return (double) (ts.tv_sec - t_start) + ts.tv_nsec * 1.0e-9;
+}
+

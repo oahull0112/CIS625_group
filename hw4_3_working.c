@@ -15,14 +15,21 @@
 static void master(void);
 static void slave(void);
 
+double myclock();
+
 int numberWords, numberLines;
 
+// program set-up adapted from https://web.archive.org/web/20150209220259/http://www.lam-mpi.org/tutorials/one-step/ezstart.php
 int main(int argc, char ** argv) {
+  double tstart, ttotal;
 
   // MPI
   int numtasks;
   int rank;
   MPI_Status status;
+
+  tstart = myclock(); // set the zero time
+  tstart = myclock(); // start the clock
 
   if (argc == 3)
   {
@@ -34,7 +41,6 @@ int main(int argc, char ** argv) {
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
   MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
 
-  printf("a\n");
   if ( rank == 0 )
   {
     master();
@@ -44,6 +50,13 @@ int main(int argc, char ** argv) {
     slave();
   }
 
+  ttotal = myclock() - tstart;
+  if (rank == 0)
+  {
+    printf("\n");
+    printf("DATA, 3, %lf\n", ttotal);
+  }
+
   MPI_Finalize();
 }
 
@@ -51,8 +64,6 @@ static void master(void)
 {
   int ntasks, rank;
   MPI_Status status;
-  int nwords_sent;
-  int nwords_total = 200; // change this to take as argument once everything works
 
   int *hit;
   int **hitBatch;
@@ -70,7 +81,7 @@ static void master(void)
   int offset_rec;
   int ikeys = 0;
   char **full_keywords;
-  int icWords = 0;
+  int icWords = 0; // "index of current words"
 
   MPI_Comm_size(MPI_COMM_WORLD, &ntasks);
 
@@ -122,7 +133,6 @@ static void master(void)
     offset++;
     icWords = icWords + batch;
     
-    nwords_sent = nwords_sent + batch;
   }
 
   // read in the next word batch:
@@ -156,7 +166,6 @@ static void master(void)
        inwords++;
     }
 
-    nwords_sent = nwords_sent + batch;
     for (j=0; j<batch; j++)
     {
       printf("\n");
@@ -196,19 +205,6 @@ static void master(void)
     MPI_Send(0, 0, MPI_INT, rank, DIETAG, MPI_COMM_WORLD);
   }
 
- // for (j=0; j<batch; j++)
- // {
- //   printf("\n");
- //   printf("from %d word %s : ", status.MPI_SOURCE, keywords[j]);
- //   for (k=0; k<hit_buff_size; k++)
- //   {
- //     if( hitBatch[j][k] != -1)
- //     {
- //       printf(" %d, ", hitBatch[j][k]);
- //     }
- //   }
- // }
-
   return;
 }
 
@@ -218,8 +214,6 @@ static void slave(void)
   int i;
   int result; // this will be the index buffer to send
   int inlines;
-//  int nlines = 500; // just read in 500 wiki lines for now
-
   int *hit;
   int **hitBatch;
   char *word;
@@ -253,12 +247,11 @@ static void slave(void)
     }
   }
 
-  // read in the wiki lines: (all tasks read in all lines)
+  // allocate memory and read in the wiki lines: (all worker tasks read in all lines)
   line = (char **) malloc( numberLines * sizeof( char * ) );
   for( i = 0; i < numberLines; i++ ) {
      line[i] = malloc( 2001 );
   }
-
   fd = fopen("/homes/dan/625/wiki_dump.txt", "r");
   inlines = -1;
   do {
@@ -266,18 +259,17 @@ static void slave(void)
     } while( err != EOF && inlines < numberLines);
   fclose( fd );
 
+  // While there is work available, receive work from master task
   while (1)
   {
     MPI_Recv(&(keywords[0][0]), batch*word_length, MPI_CHAR, 0, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
-//    printf("tag: %d. Task %d received the words: %s to %s \n", status.MPI_TAG, result, keywords[0], keywords[99]);
-
-    // Check the tag of the received message:
+    // Check the tag of the received message. DIETAG says there is no more work, so exit.
     if (status.MPI_TAG == DIETAG)
     {
       return;
     }
     MPI_Recv(&offset, 1, MPI_INT, 0, OFFSET_TAG, MPI_COMM_WORLD, &status);
-    // do work here:
+    // do work:
     for (j = 0; j < batch; j++)
     {
       for ( k = 0; k < numberLines ; k++ )
@@ -291,23 +283,20 @@ static void slave(void)
       currentCount = 0;
     }
 
-//    for (j=0; j<batch; j++)
-//    {
-//      printf("\n");
-//      printf("word %s : ", keywords[j]);
-//      for (k=0; k<hit_buff_size; k++)
-//      {
-//        if( hitBatch[j][k] != -1)
-//        {
-//          printf(" %d, ", hitBatch[j][k]);
-//        }
-//      }
-//    }
-        
    // Send the result back:
-   // MPI_Send(&result, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
     MPI_Send(&(hitBatch[0][0]), hit_buff_size*batch , MPI_INT, 0, BATCH_TAG, MPI_COMM_WORLD);
     MPI_Send(&offset, 1, MPI_INT, 0, OFFSET_TAG, MPI_COMM_WORLD);
   }
 
 }
+
+double myclock() {
+ static time_t t_start = 0;  // Save and subtract off each time
+ struct timespec ts;        
+
+ clock_gettime(CLOCK_REALTIME, &ts);
+ if( t_start == 0 ) t_start = ts.tv_sec;        
+
+ return (double) (ts.tv_sec - t_start) + ts.tv_nsec * 1.0e-9;
+}
+
