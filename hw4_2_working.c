@@ -62,7 +62,6 @@ int main(int argc, char* argv[])
     my_lineend = my_lineend + line_remainder;
   }
 
-  printf("my rank: %d, my start: %d, my end: %d, my nlines: %d \n", rank, my_linestart, my_lineend, my_nlines);
 
   // task 0 reads in all the keywords:
   if(rank == 0)
@@ -164,7 +163,7 @@ int main(int argc, char* argv[])
        MPI_Recv(&currentCount, 1, MPI_INT, lasttask, 0, MPI_COMM_WORLD, &Status );
        MPI_Recv(&hitBuf, 100, MPI_INT, lasttask, 0, MPI_COMM_WORLD, &Status);
        printf("\n %s: %d ", currentWord, currentCount);
-       for (k=0; k<99; k++)
+       for (k=0; k<99; k++) // NOTE: I think this should be k < 100...
        {
          if(hitBuf[k] != -1)
          {

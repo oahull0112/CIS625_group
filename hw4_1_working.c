@@ -54,8 +54,6 @@ int main(int argc, char* argv[])
     my_lineend = my_lineend + line_remainder;
   }
 
-  printf("my rank: %d, my start: %d, my end: %d, my nlines: %d \n", rank, my_linestart, my_lineend, my_nlines);
-
   if(rank == 0)
   {
     word = (char **) malloc( nwords *(1+ sizeof( char * )) );
