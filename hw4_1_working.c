@@ -24,7 +24,6 @@ int main(int argc, char* argv[])
   int numtasks, rank, rc;
   int line_remainder, my_nlines, my_lineend, my_linestart;
   int imylines;
- // char *buf;
   char buf[2001];
   char currentWord[10];
   int icount = 0;
@@ -49,17 +48,20 @@ int main(int argc, char* argv[])
   nwords = atoi(argv[1]);
   nlines = atoi(argv[2]);
  
+  // Figure out which task gets which lines:
   line_remainder = nlines % (numtasks-1);
   my_nlines = (nlines/(numtasks-1));
   my_linestart = (rank-1)*my_nlines ;
   my_lineend = my_linestart + my_nlines;
 
+  // Give leftover lines to the last mpi task
   if (rank == numtasks - 1)
   {
     my_nlines = my_nlines + line_remainder;
     my_lineend = my_lineend + line_remainder;
   }
 
+  // task 0 reads in the keywords
   if(rank == 0)
   {
     word = (char **) malloc( nwords *(1+ sizeof( char * )) );
@@ -75,6 +77,7 @@ int main(int argc, char* argv[])
     fclose( fd );
   } 
 
+  // worker tasks read in their pieces of wikilines
   if (rank != 0)
   {
     line = (char **) malloc( my_nlines * sizeof( char * ) );
@@ -100,13 +103,14 @@ int main(int argc, char* argv[])
     fclose(fd);
   }
 
+  // loop over the number of keywords
   for (i = 0 ; i < nwords; i++)
   {
     if (rank == 0) 
     {
       for (j = 1; j < numtasks ; j ++)
       {
-        // send the current word to be worked on:
+        // send the current word to be worked on to all worker tasks:
         MPI_Send(word[i], 10, MPI_CHAR, j, 0, MPI_COMM_WORLD);
       }
         // receive the results from each worker task
@@ -124,17 +128,19 @@ int main(int argc, char* argv[])
           }
         }
       }
+      // reset the receive-counter and the hit buffer:
       recCounter = 0;
       for (k = 0; k < 100; k++)
       {
         hitBuf[k] = -1;
       }
     }
-    else
+    else // worker tasks:
     {
+      // receive the current keyword:
       MPI_Recv( &currentWord, 10, MPI_CHAR, 0, 0, MPI_COMM_WORLD, &Status);
       icount = 0;
-      for (j = 0; j < 100; j++)
+      for (j = 0; j < 100; j++) // only want the first 100 hits per worker task
       {
         hits[j] = -1;
       }
@@ -147,18 +153,14 @@ int main(int argc, char* argv[])
             icount++;
           }
       }
+      // send the hits index array back to the master task
       MPI_Send(hits, 100, MPI_INT, 0, 0, MPI_COMM_WORLD);
     }
-//      receive the number of hits, allocate a structure to receive the index array
-//        - possible structure is an array with number of entries corresponding to number of worker tasks
-//        - and each entry points to an array allocated with the hit size received from the worker
-//      receive the list of indices back from each worker
-//      once all indices have been received, dump out to the display
-// // do a for-loop here with MPI broadcast?
   }
 
   ttotal = myclock() - tstart;
 
+  // print out the timing info
   if (rank == 0)
   {
     printf("\n");

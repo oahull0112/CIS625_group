@@ -1,0 +1,55 @@
+slurm-8310702.out 4 MPI tasks - finished with 2 runs of 1,2 and 1 run of 3
+slurm-8310758.out 8 MPI tasks - died with 4 runs each of 1, 2, 3
+slurm-8310759.out 2 MPI tasks
+slurm-8268254.out All MPI tasks (16 first)
+slurm-8319290.out 2 MPI tasks
+slurm-8320727.out 4 MPI tasks
+slurm-8320730.out 8 MPI tasks (queue)
+slurm-8320763.out 2 MPI tasks - 1 run of each
+slurm-8320774.out 16 MPI tasks - done (5 runs each of 1, 2, 3)
+slurm-8328456.out 8 MPI tasks (queue)
+slurm-8328457.out 4 MPI tasks (queue) - 
+slurm-8328458.out 2 MPI tasks (queue) - t3
+slurm-8328459.out 2 MPI tasks (queue) - t3
+slurm-8335703.out 2 MPI tasks part a
+slurm-8335706.out 2 MPI tasks part b
+slurm-8335707.out 2 MPI tasks part c
+
+
+Status:
+16 tasks - all done (8320774)
+8 tasks  - 12/15 (8310758)
+4 tasks - 10/15 - 3 of 2, 3 and 4 of 1 - 8310702, 8320727
+2 tasks - 6/15 - 3 from 8310759, 2 from 8319290 (3, 1), 1 from 8320763 (3)
+
+2 tasks:
+1 - 5/5
+2 - 5/5
+3 - 5/5
+
+4 tasks:
+1 - 5/5 
+2 - 5/5
+3 - 5/5
+
+8 tasks:
+1 - 5/5 
+2 - 5/5
+3 - 5/5
+
+16 tasks:
+1 - 5/5 
+2 - 5/5
+3 - 5/5
+
+2 task a: slurm-8319290.out, slurm-8335703.out
+2 task b: slurm-8319290.out, slurm-8335706.out
+2 task c: slurm-8319290.out, slurm-8335707.out
+
+4 task a: slurm-8320727.out, slurm-8310702.out
+4 task b: slurm-8320727.out, slurm-8310702.out
+4 task c: slurm-8320727.out, slurm-8310702.out
+
+8 task a, b, c: slurm-8320730.out, slurm-8310758.out
+
+16 task a, b, c: slurm-8320774.out

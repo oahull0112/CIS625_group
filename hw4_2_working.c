@@ -26,9 +26,6 @@ int main(int argc, char* argv[])
   int imylines;
   char buf[2001];
   char currentWord[10];
-  // we may need to change hitBuf so that task 0 allocates like below
-  // but for the worker tasks, may need to malloc?
-  // Think about how stuff is getting read into here...
   int hitBuf[100] = {-1};
   int icount = 0;
   int currentCount = 0;
@@ -114,20 +111,16 @@ int main(int argc, char* argv[])
   {
     for (i = 0 ; i < nwords; i++)
     {
-      // In this case, have task 0 do no actual work (for now?).
-      // send the current word to be worked on:
+      // set the hit buffer back to its entries being -1
       for (k=0; k<100; k++)
       {
         hitBuf[k]=-1;
       }
       currentCount = 0;
+      // send the current word to be worked on:
       MPI_Send(word[i], 10, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
       MPI_Send(&currentCount, 1, MPI_INT, 1, 0, MPI_COMM_WORLD);
       MPI_Send(&hitBuf, 100, MPI_INT, 1, 0, MPI_COMM_WORLD);
-    //  for (k=0; k<100; k++)
-    //  {
-    //    hitBuf[k]=-1;
-    //  }
     }
   }
   else
@@ -143,7 +136,6 @@ int main(int argc, char* argv[])
       MPI_Recv(&hitBuf, 100, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, &Status);
       for ( k = 0; k < my_nlines ; k++ )
       {
-        // need to modify this part so that it also appends the index of the line:
         if (strstr(line[k], currentWord) != NULL && currentCount < 100 )
           {
             hitBuf[currentCount] = k + my_linestart;
@@ -161,14 +153,13 @@ int main(int argc, char* argv[])
   if (rank == 0)
   {
     // once task 0 sends all words out, can start receiving words back:
-    // Do we print out word : total ONLY if total != 0, or do we print out the word but not the total if total = 0?
     while (n_receives < nwords)
     {
        MPI_Recv(&currentWord, 10, MPI_CHAR, lasttask, 0, MPI_COMM_WORLD, &Status);
        MPI_Recv(&currentCount, 1, MPI_INT, lasttask, 0, MPI_COMM_WORLD, &Status );
        MPI_Recv(&hitBuf, 100, MPI_INT, lasttask, 0, MPI_COMM_WORLD, &Status);
        printf("\n %s: count %d", currentWord, currentCount);
-       for (k=0; k<99; k++) // NOTE: I think this should be k < 100...
+       for (k=0; k<100; k++)
        {
          if(hitBuf[k] != -1)
          {

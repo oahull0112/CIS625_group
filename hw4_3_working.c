@@ -76,7 +76,7 @@ static void master(void)
   int inwords;
   int err;
   int work = 1;
-  int result; // this will eventually change to be the index buffer
+  int result; 
   int offset = 0;
   int offset_rec;
   int ikeys = 0;
@@ -84,7 +84,6 @@ static void master(void)
   int icWords = 0; // "index of current words"
 
   MPI_Comm_size(MPI_COMM_WORLD, &ntasks);
-
 
   // Allocate space for full keyword list:
   full_keywords = (char **) malloc(numberWords *(1+sizeof(char *)));
@@ -222,7 +221,7 @@ static void slave(void)
   FILE *fd;
   int err;
   int j, k;
-  int currentCount = 0; // don't think we actually need this...
+  int currentCount = 0; 
   int offset;
   char currentWord[10];
 
@@ -236,6 +235,7 @@ static void slave(void)
     keywords[i] = &(word[word_length*i]);
   }
 
+  // allocate space for the hit indices for the keyword batch:
   hit = (int *)malloc(hit_buff_size * batch * sizeof(int)); // cols x rows
   hitBatch = (int **)malloc(batch*sizeof(int *)); // rows
   for (i=0; i<batch; i++)
