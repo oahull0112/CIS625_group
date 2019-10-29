@@ -4,6 +4,8 @@
 int main(int argc, char *argv[])
 {
     int num_N,  // number of numbers
+        sum = 0,
+        mean,
         i;
 
     // check args and set num_N to number given from commandline
@@ -19,6 +21,17 @@ int main(int argc, char *argv[])
         numbers[i] = rand() % 100 + 1;  // generate a number between 0 and 100
         printf("number %d: %d\n", i, numbers[i]);
     }
+
+    // caclulate mean
+    for (i = 0; i < num_N; i++)
+    {
+        sum += numbers[i];
+    }
+    mean = sum / num_N;
+    printf("Sum: %d\n", sum);
+    printf("Mean: %d\n", mean);
+
+    // calculate std. dev.
 
     free(numbers);
     return 0;
