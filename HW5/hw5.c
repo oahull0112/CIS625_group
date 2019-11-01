@@ -8,7 +8,6 @@
 int num_N_Global;
 // total number of omp threads
 int numThreads;
-//double partialSum = 0;
 
 int main(int argc, char *argv[])
 {
@@ -38,15 +37,8 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("Exiting.\n Usage: ./hw5 <number of numbers> <number of omp threads>\n");
+        printf("Exiting.\n   Usage: ./hw5 <number of numbers>  <number of omp threads>\n");
         exit(0);
-    }
-    // set local tasks num_N and then calc and add remainder to last task
-    num_N = num_N_Global / numTasks;
-    remainder = num_N_Global % numTasks;
-    if (rank == (numTasks - 1))
-    {
-        num_N += remainder;
     }
 
     // Init MPI and OpenMP
@@ -59,6 +51,14 @@ int main(int argc, char *argv[])
     MPI_Comm_size(MPI_COMM_WORLD, &numTasks);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     omp_set_num_threads(numThreads);
+
+    // set local tasks num_N and then calc and add remainder to last task
+    num_N = num_N_Global / numTasks;
+    remainder = num_N_Global % numTasks;
+    if (rank == (numTasks - 1))
+    {
+        num_N += remainder;
+    }
 
     // allocate numbers array and generate random numbers
     receiveBuff = (double *) malloc(numTasks * sizeof(double));
@@ -75,8 +75,8 @@ int main(int argc, char *argv[])
         sum += numbers[i];
     }
     mean =  (double) sum / num_N;
-    printf("Sum %d: %f\n", rank, sum);
-    printf("Mean %d: %f\n", rank, mean);
+    printf("Sum %d: %0.2f\n", rank, sum);
+    printf("Mean %d: %0.2f\n", rank, mean);
 
     // each task gathers every tasks mean
     MPI_Allgather(&mean, 1, MPI_DOUBLE, receiveBuff, 1, MPI_DOUBLE, MPI_COMM_WORLD);
@@ -89,7 +89,7 @@ int main(int argc, char *argv[])
     }
     mean = mean / numTasks;
 
-    #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum, numbers, mean)
+    #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum)
     {
         myThreadID = omp_get_thread_num();
         myStart = (num_N * myThreadID / numThreads);
@@ -126,7 +126,7 @@ int main(int argc, char *argv[])
         // calculate std. dev.
         stdDev =  sum / (num_N_Global - 1);
         stdDev = sqrt(stdDev);
-        printf("stdDev: %f\n", stdDev);
+        printf("stdDev: %0.2f\n", stdDev);
     }
     
     free(numbers);
