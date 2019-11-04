@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
     // allocate numbers array and generate random numbers
     receiveBuff = (double *) malloc(numTasks * sizeof(double));
     numbers = (int *) malloc(num_N * sizeof(int));
-    srand(time(0));
+    srand(time(0) + rank);
     for (i = 0; i < num_N; i++)
     {
         numbers[i] = rand() % 100 + 1;  // generate a number between 0 and 100
@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
         sum += numbers[i];
     }
     mean =  (double) sum / num_N;
-    printf("Sum %d: %0.2f\n", rank, sum);
+    printf("Sum %d: %0.0f\n", rank, sum);
     printf("Mean %d: %0.2f\n", rank, mean);
 
     // each task gathers every tasks mean
