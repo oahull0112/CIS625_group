@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <time.h>
 #include <omp.h>
 #include <mpi.h>
 
@@ -11,20 +12,20 @@ int numThreads;
 
 int main(int argc, char *argv[])
 {
-    int num_N,              // mpi task's number of numbers
+    int num_N,
         rc,
         numTasks,
         rank,
         myThreadID,
-        myStart,            // start of work block for OMP thread
-        myEnd,              // end of work block for OMP thread
+        myStart,            
+        myEnd,              
         remainder,
         i;
     double stdDev,
-            mean,
-            sum = 0,
-            partialSum = 0,
-            myPartialSum = 0;
+           mean,
+           sum = 0,
+           partialSum = 0,
+           myPartialSum = 0;
     int* numbers;
     double* receiveBuff;
     MPI_Status status;
@@ -63,6 +64,7 @@ int main(int argc, char *argv[])
     // allocate numbers array and generate random numbers
     receiveBuff = (double *) malloc(numTasks * sizeof(double));
     numbers = (int *) malloc(num_N * sizeof(int));
+    srand(time(0));
     for (i = 0; i < num_N; i++)
     {
         numbers[i] = rand() % 100 + 1;  // generate a number between 0 and 100
