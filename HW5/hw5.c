@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
+#include <sys/time.h>
 #include <omp.h>
 #include <mpi.h>
 
@@ -29,6 +30,8 @@ int main(int argc, char *argv[])
     int* numbers;
     double* receiveBuff;
     MPI_Status status;
+    struct timeval t1, t2;
+    double timeElapsed;
 
     // check commandline args, exit if wrong
     if (argc == 3)
@@ -61,6 +64,9 @@ int main(int argc, char *argv[])
         num_N += remainder;
     }
 
+    if (rank == 0)
+        gettimeofday(&t1, NULL);
+
     // allocate numbers array and generate random numbers
     receiveBuff = (double *) malloc(numTasks * sizeof(double));
     numbers = (int *) malloc(num_N * sizeof(int));
@@ -77,8 +83,6 @@ int main(int argc, char *argv[])
         sum += numbers[i];
     }
     mean =  (double) sum / num_N;
-    printf("Sum %d: %0.0f\n", rank, sum);
-    printf("Mean %d: %0.2f\n", rank, mean);
 
     // each task gathers every tasks mean
     MPI_Allgather(&mean, 1, MPI_DOUBLE, receiveBuff, 1, MPI_DOUBLE, MPI_COMM_WORLD);
@@ -100,9 +104,6 @@ int main(int argc, char *argv[])
         {
             myEnd = num_N;
         }
-
-        printf("num_N: %d, numThreads: %d\n", num_N, numThreads);
-        printf("my MPI Task rank: %d  my OMP thread rank: %d my start: %d my end %d\n", rank, myThreadID, myStart, myEnd);
 
         for (i = myStart; i < myEnd; i++)
         {
@@ -133,6 +134,16 @@ int main(int argc, char *argv[])
     
     free(numbers);
     free(receiveBuff);
+
+    if (rank == 0)
+    {
+        gettimeofday(&t2, NULL);
+        timeElapsed = (t2.tv_sec - t1.tv_sec) * 1000.0; //sec to ms
+        timeElapsed += (t2.tv_usec - t1.tv_usec) / 1000.0; // us to ms
+        timeElapsed = timeElapsed/1000.0; // time in sec
+        printf("TIME, %0.2f\n", timeElapsed);
+    }
+
     MPI_Finalize();
     return 0;
 }
