@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
     for (i = 0; i < num_N; i++)
     {
         numbers[i] = rand() % 100 + 1;  // generate a number between 0 and 100
-        printf("Number %d: %d\n", i, numbers[i]);
+        //printf("Number %d: %d\n", i, numbers[i]);
     }
 
     // each task calculates its mean
@@ -141,7 +141,7 @@ int main(int argc, char *argv[])
         timeElapsed = (t2.tv_sec - t1.tv_sec) * 1000.0; //sec to ms
         timeElapsed += (t2.tv_usec - t1.tv_usec) / 1000.0; // us to ms
         timeElapsed = timeElapsed/1000.0; // time in sec
-        printf("TIME, %0.2f\n", timeElapsed);
+        printf("TIME, %0.4f, TASKS, %d, THREADS, %d\n", timeElapsed, numTasks, numThreads);
     }
 
     MPI_Finalize();
