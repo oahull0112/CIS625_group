@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name="625hw5"
-#SBATCH --time=00-00:00:10
+#SBATCH --time=00-00:01:00
 #SBATCH --constraint=elves
 ##SBATCH --partition=batch.q,killable.q
-##SBATCH --mem=3G
+#SBATCH --mem=5G
 
 ##SBATCH -N 1
 ##SBATCH -n 1
