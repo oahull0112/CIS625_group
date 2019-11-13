@@ -1,0 +1,1524 @@
+stdDev: 28.87
+TIME, 2.1905, TASKS, 16, THREADS, 16
+stdDev: 28.87
+TIME, 2.1014, TASKS, 16, THREADS, 8
+stdDev: 28.87
+TIME, 2.2218, TASKS, 16, THREADS, 4
+stdDev: 28.87
+TIME, 2.1651, TASKS, 16, THREADS, 2
+stdDev: 28.87
+TIME, 2.1118, TASKS, 16, THREADS, 1
+[mole111:184829] *** Process received signal ***
+[mole111:184829] Signal: Segmentation fault (11)
+[mole111:184829] Signal code:  (0)
+[mole111:184829] Failing at address: (nil)
+[mole111:184829] [ 0] /lib64/libc.so.6(+0x36280)[0x7f876ed51280]
+[mole111:184829] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole111:184829] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f876f3f1103]
+[mole111:184829] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f876f3b294b]
+[mole111:184829] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f876f3b1e74]
+[mole106:41872] *** Process received signal ***
+[mole106:41872] Signal: Segmentation fault (11)
+[mole106:41872] Signal code:  (0)
+[mole106:41872] Failing at address: (nil)
+[mole106:41872] [ 0] /lib64/libc.so.6(+0x36280)[0x7f7a1f1df280]
+[mole106:41872] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:41872] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f7a1f87f103]
+[mole106:41872] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f7a1f84094b]
+[mole106:41872] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f7a1f83fe74]
+[mole110:136265] *** Process received signal ***
+[mole110:136265] Signal: Segmentation fault (11)
+[mole110:136265] Signal code:  (0)
+[mole110:136265] Failing at address: (nil)
+[mole110:136265] [ 0] /lib64/libc.so.6(+0x36280)[0x7fe6c74ff280]
+[mole110:136265] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole110:136265] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fe6c7b9f103]
+[mole110:136265] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fe6c7b6094b]
+[mole110:136265] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fe6c7b5fe74]
+[mole107:71033] *** Process received signal ***
+[mole107:71033] Signal: Segmentation fault (11)
+[mole107:71033] Signal code:  (0)
+[mole107:71033] Failing at address: (nil)
+[mole107:71033] [ 0] /lib64/libc.so.6(+0x36280)[0x7f52bed67280]
+[mole107:71033] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:71033] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f52bf407103]
+[mole107:71033] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f52bf3c894b]
+[mole107:71033] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f52bf3c7e74]
+[mole108:147521] *** Process received signal ***
+[mole108:147521] Signal: Segmentation fault (11)
+[mole108:147521] Signal code:  (0)
+[mole108:147521] Failing at address: (nil)
+[mole108:147521] [ 0] /lib64/libc.so.6(+0x36280)[0x7fe619522280]
+[mole108:147521] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole108:147521] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fe619bc2103]
+[mole108:147521] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fe619b8394b]
+[mole108:147521] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fe619b82e74]
+[mole109:169426] *** Process received signal ***
+[mole109:169426] Signal: Segmentation fault (11)
+[mole109:169426] Signal code:  (0)
+[mole109:169426] Failing at address: (nil)
+[mole109:169426] [ 0] /lib64/libc.so.6(+0x36280)[0x7ff736148280]
+[mole109:169426] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole109:169426] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7ff7367e8103]
+[mole109:169426] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7ff7367a994b]
+[mole109:169426] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7ff7367a8e74]
+[mole111:184829] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f876f3f1571]
+[mole111:184829] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f876f0efdd5]
+[mole111:184829] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f876ee18ead]
+[mole111:184829] *** End of error message ***
+[mole106:41872] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f7a1f87f571]
+[mole106:41872] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f7a1f57ddd5]
+[mole106:41872] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f7a1f2a6ead]
+[mole106:41872] *** End of error message ***
+[mole110:136265] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fe6c7b9f571]
+[mole110:136265] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fe6c789ddd5]
+[mole110:136265] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fe6c75c6ead]
+[mole110:136265] *** End of error message ***
+[mole107:71033] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f52bf407571]
+[mole107:71033] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f52bf105dd5]
+[mole107:71033] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f52bee2eead]
+[mole107:71033] *** End of error message ***
+[mole108:147521] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fe619bc2571]
+[mole108:147521] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fe6198c0dd5]
+[mole108:147521] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fe6195e9ead]
+[mole108:147521] *** End of error message ***
+[mole104:95960] *** Process received signal ***
+[mole104:95960] Signal: Segmentation fault (11)
+[mole104:95960] Signal code:  (0)
+[mole104:95960] Failing at address: (nil)
+[mole104:95960] [ 0] /lib64/libc.so.6(+0x36280)[0x7f4cfc06e280]
+[mole104:95960] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:95960] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4cfc70e103]
+[mole104:95960] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f4cfc6cf94b]
+[mole104:95960] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f4cfc6cee74]
+[mole090:62025] *** Process received signal ***
+[mole090:62025] Signal: Segmentation fault (11)
+[mole090:62025] Signal code:  (0)
+[mole090:62025] Failing at address: (nil)
+[mole090:62025] [ 0] /lib64/libc.so.6(+0x36280)[0x7f4688fb7280]
+[mole090:62025] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:62025] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4689657103]
+[mole090:62025] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f468961894b]
+[mole090:62025] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f4689617e74]
+[mole109:169426] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7ff7367e8571]
+[mole109:169426] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7ff7364e6dd5]
+[mole109:169426] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7ff73620fead]
+[mole109:169426] *** End of error message ***
+srun: error: mole111: task 7: Segmentation fault
+srun: error: mole106: task 2: Segmentation fault
+srun: error: mole108: task 4: Segmentation fault
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole110: task 6: Segmentation fault
+[mole104:95960] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f4cfc70e571]
+[mole104:95960] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f4cfc40cdd5]
+[mole104:95960] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f4cfc135ead]
+[mole104:95960] *** End of error message ***
+srun: error: mole109: task 5: Segmentation fault
+[mole090:62025] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f4689657571]
+[mole090:62025] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f4689355dd5]
+[mole090:62025] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f468907eead]
+[mole090:62025] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+stdDev: 28.87
+TIME, 4.3449, TASKS, 8, THREADS, 8
+stdDev: 28.87
+TIME, 4.3060, TASKS, 8, THREADS, 4
+stdDev: 28.87
+TIME, 4.2590, TASKS, 8, THREADS, 2
+stdDev: 28.87
+TIME, 4.2368, TASKS, 8, THREADS, 1
+[mole106:42023] *** Process received signal ***
+[mole106:42023] Signal: Segmentation fault (11)
+[mole106:42023] Signal code:  (0)
+[mole106:42023] Failing at address: (nil)
+[mole106:42023] [ 0] /lib64/libc.so.6(+0x36280)[0x7f429f2d5280]
+[mole106:42023] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:42023] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f429f975103]
+[mole106:42023] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f429f93694b]
+[mole106:42023] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f429f935e74]
+[mole107:71184] *** Process received signal ***
+[mole107:71184] Signal: Segmentation fault (11)
+[mole107:71184] Signal code:  (0)
+[mole107:71184] Failing at address: (nil)
+[mole107:71184] [ 0] /lib64/libc.so.6(+0x36280)[0x7fad65035280]
+[mole107:71184] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:71184] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fad656d5103]
+[mole107:71184] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fad6569694b]
+[mole107:71184] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fad65695e74]
+[mole106:42023] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f429f975571]
+[mole106:42023] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f429f673dd5]
+[mole106:42023] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f429f39cead]
+[mole106:42023] *** End of error message ***
+[mole107:71184] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fad656d5571]
+[mole107:71184] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fad653d3dd5]
+[mole107:71184] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fad650fcead]
+[mole107:71184] *** End of error message ***
+[mole090:62414] *** Process received signal ***
+[mole090:62414] Signal: Segmentation fault (11)
+[mole090:62414] Signal code:  (0)
+[mole090:62414] Failing at address: (nil)
+[mole090:62414] [ 0] /lib64/libc.so.6(+0x36280)[0x7f4323008280]
+[mole090:62414] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:62414] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f43236a8103]
+[mole090:62414] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f432366994b]
+[mole090:62414] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f4323668e74]
+[mole104:96096] *** Process received signal ***
+[mole104:96096] Signal: Segmentation fault (11)
+[mole104:96096] Signal code:  (0)
+[mole104:96096] Failing at address: (nil)
+[mole104:96096] [ 0] /lib64/libc.so.6(+0x36280)[0x7f94173bf280]
+[mole104:96096] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:96096] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f9417a5f103]
+[mole104:96096] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f9417a2094b]
+[mole104:96096] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f9417a1fe74]
+[mole090:62414] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f43236a8571]
+[mole090:62414] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f43233a6dd5]
+[mole090:62414] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f43230cfead]
+[mole090:62414] *** End of error message ***
+[mole104:96096] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f9417a5f571]
+[mole104:96096] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f941775ddd5]
+[mole104:96096] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f9417486ead]
+[mole104:96096] *** End of error message ***
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole106: task 2: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 8.7296, TASKS, 4, THREADS, 8
+stdDev: 28.87
+TIME, 8.7042, TASKS, 4, THREADS, 4
+stdDev: 28.87
+TIME, 8.4309, TASKS, 4, THREADS, 2
+stdDev: 28.87
+TIME, 8.6507, TASKS, 4, THREADS, 1
+[mole090:62694] *** Process received signal ***
+[mole090:62694] Signal: Segmentation fault (11)
+[mole090:62694] Signal code:  (0)
+[mole090:62694] Failing at address: (nil)
+[mole090:62694] [ 0] /lib64/libc.so.6(+0x36280)[0x7f7ef68a2280]
+[mole090:62694] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:62694] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f7ef6f42103]
+[mole090:62694] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f7ef6f0394b]
+[mole090:62694] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f7ef6f02e74]
+[mole104:96232] *** Process received signal ***
+[mole104:96232] Signal: Segmentation fault (11)
+[mole104:96232] Signal code:  (0)
+[mole104:96232] Failing at address: (nil)
+[mole104:96232] [ 0] /lib64/libc.so.6(+0x36280)[0x7f9c8d7b4280]
+[mole104:96232] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:96232] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f9c8de54103]
+[mole104:96232] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f9c8de1594b]
+[mole104:96232] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f9c8de14e74]
+[mole090:62694] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f7ef6f42571]
+[mole090:62694] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f7ef6c40dd5]
+[mole090:62694] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f7ef6969ead]
+[mole090:62694] *** End of error message ***
+[mole104:96232] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f9c8de54571]
+[mole104:96232] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f9c8db52dd5]
+[mole104:96232] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f9c8d87bead]
+[mole104:96232] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+[mole090:62744] *** Process received signal ***
+[mole090:62744] Signal: Segmentation fault (11)
+[mole090:62744] Signal code:  (0)
+[mole090:62744] Failing at address: (nil)
+[mole090:62744] [ 0] /lib64/libc.so.6(+0x36280)[0x7f69f6728280]
+[mole090:62744] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:62744] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f69f6dc8103]
+[mole090:62744] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f69f6d8994b]
+[mole090:62744] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f69f6d88e74]
+[mole104:96267] *** Process received signal ***
+[mole104:96267] Signal: Segmentation fault (11)
+[mole104:96267] Signal code:  (0)
+[mole104:96267] Failing at address: (nil)
+[mole104:96267] [ 0] /lib64/libc.so.6(+0x36280)[0x7f96eac51280]
+[mole104:96267] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:96267] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f96eb2f1103]
+[mole104:96267] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f96eb2b294b]
+[mole104:96267] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f96eb2b1e74]
+[mole090:62744] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f69f6dc8571]
+[mole090:62744] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f69f6ac6dd5]
+[mole090:62744] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f69f67efead]
+[mole090:62744] *** End of error message ***
+[mole104:96267] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f96eb2f1571]
+[mole104:96267] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f96eafefdd5]
+[mole104:96267] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f96ead18ead]
+[mole104:96267] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 17.7407, TASKS, 2, THREADS, 4
+stdDev: 28.87
+TIME, 17.6415, TASKS, 2, THREADS, 2
+stdDev: 28.87
+TIME, 17.9346, TASKS, 2, THREADS, 1
+[mole090:62911] *** Process received signal ***
+[mole090:62911] Signal: Segmentation fault (11)
+[mole090:62911] Associated errno: Unknown error 32596 (32596)
+[mole090:62911] Signal code:  (0)
+[mole090:62911] Failing at address: 0x14
+[mole090:62911] [ 0] /lib64/libc.so.6(+0x36280)[0x7f5461f30280]
+[mole090:62911] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:62911] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f54625d0103]
+[mole090:62911] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f546259194b]
+[mole090:62911] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f5462590e74]
+[mole090:62911] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f54625d0571]
+[mole090:62911] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f54622cedd5]
+[mole090:62911] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f5461ff7ead]
+[mole090:62911] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:62956] *** Process received signal ***
+[mole090:62956] Signal: Segmentation fault (11)
+[mole090:62956] Associated errno: Unknown error 32689 (32689)
+[mole090:62956] Signal code:  (0)
+[mole090:62956] Failing at address: 0x14
+[mole090:62956] [ 0] /lib64/libc.so.6(+0x36280)[0x7fb17014a280]
+[mole090:62956] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:62956] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fb1707ea103]
+[mole090:62956] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fb1707ab94b]
+[mole090:62956] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fb1707aae74]
+[mole090:62956] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fb1707ea571]
+[mole090:62956] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fb1704e8dd5]
+[mole090:62956] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fb170211ead]
+[mole090:62956] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:63184] *** Process received signal ***
+[mole090:63184] Signal: Segmentation fault (11)
+[mole090:63184] Associated errno: Unknown error 32551 (32551)
+[mole090:63184] Signal code:  (0)
+[mole090:63184] Failing at address: 0x14
+[mole090:63184] [ 0] /lib64/libc.so.6(+0x36280)[0x7f2722f4f280]
+[mole090:63184] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:63184] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f27235ef103]
+[mole090:63184] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f27235b094b]
+[mole090:63184] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f27235afe74]
+[mole090:63184] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f27235ef571]
+[mole090:63184] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f27232eddd5]
+[mole090:63184] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f2723016ead]
+[mole090:63184] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 35.6837, TASKS, 1, THREADS, 2
+stdDev: 28.87
+TIME, 35.8407, TASKS, 1, THREADS, 1
+stdDev: 28.87
+TIME, 2.1474, TASKS, 16, THREADS, 16
+stdDev: 28.87
+TIME, 2.1412, TASKS, 16, THREADS, 8
+stdDev: 28.87
+TIME, 2.0425, TASKS, 16, THREADS, 4
+stdDev: 28.87
+TIME, 1.9582, TASKS, 16, THREADS, 2
+stdDev: 28.87
+TIME, 1.9452, TASKS, 16, THREADS, 1
+[mole107:71599] *** Process received signal ***
+[mole107:71599] Signal: Segmentation fault (11)
+[mole107:71599] Signal code:  (0)
+[mole107:71599] Failing at address: (nil)
+[mole107:71599] [ 0] /lib64/libc.so.6(+0x36280)[0x7f915b379280]
+[mole107:71599] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:71599] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f915ba19103]
+[mole107:71599] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f915b9da94b]
+[mole107:71599] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f915b9d9e74]
+[mole110:136692] *** Process received signal ***
+[mole110:136692] Signal: Segmentation fault (11)
+[mole110:136692] Signal code:  (0)
+[mole110:136692] Failing at address: (nil)
+[mole110:136692] [ 0] /lib64/libc.so.6(+0x36280)[0x7fa01b883280]
+[mole110:136692] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole110:136692] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fa01bf23103]
+[mole110:136692] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fa01bee494b]
+[mole110:136692] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fa01bee3e74]
+[mole106:42439] *** Process received signal ***
+[mole106:42439] Signal: Segmentation fault (11)
+[mole106:42439] Signal code:  (0)
+[mole106:42439] Failing at address: (nil)
+[mole106:42439] [ 0] /lib64/libc.so.6(+0x36280)[0x7fc506a0b280]
+[mole106:42439] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:42439] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc5070ab103]
+[mole106:42439] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc50706c94b]
+[mole106:42439] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc50706be74]
+[mole109:169842] *** Process received signal ***
+[mole109:169842] Signal: Segmentation fault (11)
+[mole109:169842] Signal code:  (0)
+[mole109:169842] Failing at address: (nil)
+[mole109:169842] [ 0] /lib64/libc.so.6(+0x36280)[0x7f00e27e3280]
+[mole109:169842] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole109:169842] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f00e2e83103]
+[mole109:169842] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f00e2e4494b]
+[mole109:169842] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f00e2e43e74]
+[mole111:185255] *** Process received signal ***
+[mole111:185255] Signal: Segmentation fault (11)
+[mole111:185255] Signal code:  (0)
+[mole111:185255] Failing at address: (nil)
+[mole111:185255] [ 0] /lib64/libc.so.6(+0x36280)[0x7f22b9ce8280]
+[mole111:185255] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole111:185255] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f22ba388103]
+[mole111:185255] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f22ba34994b]
+[mole111:185255] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f22ba348e74]
+[mole108:147944] *** Process received signal ***
+[mole108:147944] Signal: Segmentation fault (11)
+[mole108:147944] Signal code:  (0)
+[mole108:147944] Failing at address: (nil)
+[mole108:147944] [ 0] /lib64/libc.so.6(+0x36280)[0x7f66b0e7c280]
+[mole108:147944] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole108:147944] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f66b151c103]
+[mole108:147944] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f66b14dd94b]
+[mole108:147944] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f66b14dce74]
+[mole107:71599] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f915ba19571]
+[mole107:71599] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f915b717dd5]
+[mole107:71599] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f915b440ead]
+[mole107:71599] *** End of error message ***
+[mole110:136692] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fa01bf23571]
+[mole110:136692] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fa01bc21dd5]
+[mole110:136692] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fa01b94aead]
+[mole110:136692] *** End of error message ***
+[mole104:96735] *** Process received signal ***
+[mole104:96735] Signal: Segmentation fault (11)
+[mole104:96735] Signal code:  (0)
+[mole104:96735] Failing at address: (nil)
+[mole104:96735] [ 0] /lib64/libc.so.6(+0x36280)[0x7fc123630280]
+[mole104:96735] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:96735] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc123cd0103]
+[mole104:96735] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc123c9194b]
+[mole104:96735] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc123c90e74]
+[mole090:63811] *** Process received signal ***
+[mole090:63811] Signal: Segmentation fault (11)
+[mole090:63811] Signal code:  (0)
+[mole090:63811] Failing at address: (nil)
+[mole090:63811] [ 0] /lib64/libc.so.6(+0x36280)[0x7feef5c93280]
+[mole090:63811] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:63811] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7feef6333103]
+[mole090:63811] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7feef62f494b]
+[mole090:63811] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7feef62f3e74]
+[mole111:185255] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f22ba388571]
+[mole111:185255] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f22ba086dd5]
+[mole111:185255] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f22b9dafead]
+[mole111:185255] *** End of error message ***
+[mole106:42439] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc5070ab571]
+[mole106:42439] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc506da9dd5]
+[mole106:42439] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc506ad2ead]
+[mole106:42439] *** End of error message ***
+[mole109:169842] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f00e2e83571]
+[mole109:169842] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f00e2b81dd5]
+[mole109:169842] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f00e28aaead]
+[mole109:169842] *** End of error message ***
+[mole108:147944] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f66b151c571]
+[mole108:147944] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f66b121add5]
+[mole108:147944] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f66b0f43ead]
+[mole108:147944] *** End of error message ***
+srun: error: mole110: task 6: Segmentation fault
+srun: error: mole111: task 7: Segmentation fault
+srun: error: mole109: task 5: Segmentation fault
+srun: error: mole108: task 4: Segmentation fault
+srun: error: mole106: task 2: Segmentation fault
+[mole104:96735] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc123cd0571]
+[mole104:96735] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc1239cedd5]
+[mole104:96735] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc1236f7ead]
+[mole104:96735] *** End of error message ***
+[mole090:63811] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7feef6333571]
+[mole090:63811] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7feef6031dd5]
+[mole090:63811] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7feef5d5aead]
+[mole090:63811] *** End of error message ***
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+stdDev: 28.87
+TIME, 4.1928, TASKS, 8, THREADS, 8
+stdDev: 28.87
+TIME, 4.3282, TASKS, 8, THREADS, 4
+stdDev: 28.87
+TIME, 4.5499, TASKS, 8, THREADS, 2
+stdDev: 28.87
+TIME, 4.4359, TASKS, 8, THREADS, 1
+[mole106:42585] *** Process received signal ***
+[mole106:42585] Signal: Segmentation fault (11)
+[mole106:42585] Signal code:  (0)
+[mole106:42585] Failing at address: (nil)
+[mole106:42585] [ 0] /lib64/libc.so.6(+0x36280)[0x7f1a183d9280]
+[mole106:42585] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:42585] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f1a18a79103]
+[mole106:42585] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f1a18a3a94b]
+[mole106:42585] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f1a18a39e74]
+[mole106:42585] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f1a18a79571]
+[mole106:42585] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f1a18777dd5]
+[mole106:42585] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f1a184a0ead]
+[mole106:42585] *** End of error message ***
+[mole107:71750] *** Process received signal ***
+[mole107:71750] Signal: Segmentation fault (11)
+[mole107:71750] Signal code:  (0)
+[mole107:71750] Failing at address: (nil)
+[mole107:71750] [ 0] /lib64/libc.so.6(+0x36280)[0x7fb97e90a280]
+[mole107:71750] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:71750] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fb97efaa103]
+[mole107:71750] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fb97ef6b94b]
+[mole107:71750] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fb97ef6ae74]
+[mole107:71750] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fb97efaa571]
+[mole107:71750] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fb97eca8dd5]
+[mole107:71750] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fb97e9d1ead]
+[mole107:71750] *** End of error message ***
+[mole090:64200] *** Process received signal ***
+[mole090:64200] Signal: Segmentation fault (11)
+[mole090:64200] Signal code:  (0)
+[mole090:64200] Failing at address: (nil)
+[mole090:64200] [ 0] /lib64/libc.so.6(+0x36280)[0x7fcb7865f280]
+[mole090:64200] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:64200] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fcb78cff103]
+[mole090:64200] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fcb78cc094b]
+[mole090:64200] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fcb78cbfe74]
+[mole104:96871] *** Process received signal ***
+[mole104:96871] Signal: Segmentation fault (11)
+[mole104:96871] Signal code:  (0)
+[mole104:96871] Failing at address: (nil)
+[mole104:96871] [ 0] /lib64/libc.so.6(+0x36280)[0x7f244c7f6280]
+[mole104:96871] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:96871] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f244ce96103]
+[mole104:96871] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f244ce5794b]
+[mole104:96871] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f244ce56e74]
+[mole090:64200] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fcb78cff571]
+[mole090:64200] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fcb789fddd5]
+[mole090:64200] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fcb78726ead]
+[mole090:64200] *** End of error message ***
+srun: error: mole106: task 2: Segmentation fault
+[mole104:96871] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f244ce96571]
+[mole104:96871] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f244cb94dd5]
+[mole104:96871] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f244c8bdead]
+[mole104:96871] *** End of error message ***
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 8.9244, TASKS, 4, THREADS, 8
+stdDev: 28.87
+TIME, 9.6632, TASKS, 4, THREADS, 4
+stdDev: 28.87
+TIME, 8.5927, TASKS, 4, THREADS, 2
+stdDev: 28.87
+TIME, 8.9285, TASKS, 4, THREADS, 1
+[mole104:97006] *** Process received signal ***
+[mole104:97006] Signal: Segmentation fault (11)
+[mole104:97006] Signal code:  (0)
+[mole104:97006] Failing at address: (nil)
+[mole104:97006] [ 0] /lib64/libc.so.6(+0x36280)[0x7f921ecac280]
+[mole104:97006] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:97006] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f921f34c103]
+[mole104:97006] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f921f30d94b]
+[mole104:97006] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f921f30ce74]
+[mole090:64486] *** Process received signal ***
+[mole090:64486] Signal: Segmentation fault (11)
+[mole090:64486] Signal code:  (0)
+[mole090:64486] Failing at address: (nil)
+[mole090:64486] [ 0] /lib64/libc.so.6(+0x36280)[0x7f558d7d3280]
+[mole090:64486] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:64486] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f558de73103]
+[mole090:64486] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f558de3494b]
+[mole090:64486] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f558de33e74]
+[mole104:97006] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f921f34c571]
+[mole104:97006] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f921f04add5]
+[mole104:97006] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f921ed73ead]
+[mole104:97006] *** End of error message ***
+[mole090:64486] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f558de73571]
+[mole090:64486] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f558db71dd5]
+[mole090:64486] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f558d89aead]
+[mole090:64486] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+[mole090:64542] *** Process received signal ***
+[mole090:64542] Signal: Segmentation fault (11)
+[mole090:64542] Signal code:  (0)
+[mole090:64542] Failing at address: (nil)
+[mole090:64542] [ 0] /lib64/libc.so.6(+0x36280)[0x7fabe3cf5280]
+[mole090:64542] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:64542] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fabe4395103]
+[mole090:64542] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fabe435694b]
+[mole090:64542] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fabe4355e74]
+[mole104:97042] *** Process received signal ***
+[mole104:97042] Signal: Segmentation fault (11)
+[mole104:97042] Signal code:  (0)
+[mole104:97042] Failing at address: (nil)
+[mole104:97042] [ 0] /lib64/libc.so.6(+0x36280)[0x7f00c6fa9280]
+[mole104:97042] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:97042] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f00c7649103]
+[mole104:97042] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f00c760a94b]
+[mole104:97042] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f00c7609e74]
+[mole090:64542] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fabe4395571]
+[mole090:64542] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fabe4093dd5]
+[mole090:64542] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fabe3dbcead]
+[mole090:64542] *** End of error message ***
+[mole104:97042] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f00c7649571]
+[mole104:97042] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f00c7347dd5]
+[mole104:97042] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f00c7070ead]
+[mole104:97042] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 17.7512, TASKS, 2, THREADS, 4
+stdDev: 28.87
+TIME, 17.9040, TASKS, 2, THREADS, 2
+stdDev: 28.87
+TIME, 17.7912, TASKS, 2, THREADS, 1
+[mole090:64899] *** Process received signal ***
+[mole090:64899] Signal: Segmentation fault (11)
+[mole090:64899] Associated errno: Unknown error 32635 (32635)
+[mole090:64899] Signal code:  (0)
+[mole090:64899] Failing at address: 0x14
+[mole090:64899] [ 0] /lib64/libc.so.6(+0x36280)[0x7f7bdd4f3280]
+[mole090:64899] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:64899] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f7bddb93103]
+[mole090:64899] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f7bddb5494b]
+[mole090:64899] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f7bddb53e74]
+[mole090:64899] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f7bddb93571]
+[mole090:64899] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f7bdd891dd5]
+[mole090:64899] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f7bdd5baead]
+[mole090:64899] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:64949] *** Process received signal ***
+[mole090:64949] Signal: Segmentation fault (11)
+[mole090:64949] Associated errno: Unknown error 32590 (32590)
+[mole090:64949] Signal code:  (0)
+[mole090:64949] Failing at address: 0x14
+[mole090:64949] [ 0] /lib64/libc.so.6(+0x36280)[0x7f4ed4211280]
+[mole090:64949] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:64949] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4ed48b1103]
+[mole090:64949] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f4ed487294b]
+[mole090:64949] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f4ed4871e74]
+[mole090:64949] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f4ed48b1571]
+[mole090:64949] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f4ed45afdd5]
+[mole090:64949] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f4ed42d8ead]
+[mole090:64949] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:64991] *** Process received signal ***
+[mole090:64991] Signal: Segmentation fault (11)
+[mole090:64991] Associated errno: Unknown error 32672 (32672)
+[mole090:64991] Signal code:  (0)
+[mole090:64991] Failing at address: 0x14
+[mole090:64991] [ 0] /lib64/libc.so.6(+0x36280)[0x7fa0a13ca280]
+[mole090:64991] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:64991] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fa0a1a6a103]
+[mole090:64991] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fa0a1a2b94b]
+[mole090:64991] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fa0a1a2ae74]
+[mole090:64991] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fa0a1a6a571]
+[mole090:64991] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fa0a1768dd5]
+[mole090:64991] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fa0a1491ead]
+[mole090:64991] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 35.7878, TASKS, 1, THREADS, 2
+stdDev: 28.87
+TIME, 35.5784, TASKS, 1, THREADS, 1
+stdDev: 28.87
+TIME, 2.0890, TASKS, 16, THREADS, 16
+stdDev: 28.87
+TIME, 2.2443, TASKS, 16, THREADS, 8
+stdDev: 28.87
+TIME, 2.2419, TASKS, 16, THREADS, 4
+stdDev: 28.87
+TIME, 2.1700, TASKS, 16, THREADS, 2
+stdDev: 28.87
+TIME, 2.2500, TASKS, 16, THREADS, 1
+[mole106:43271] *** Process received signal ***
+[mole106:43271] Signal: Segmentation fault (11)
+[mole106:43271] Signal code:  (0)
+[mole106:43271] Failing at address: (nil)
+[mole106:43271] [ 0] /lib64/libc.so.6(+0x36280)[0x7fee7d91a280]
+[mole106:43271] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:43271] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fee7dfba103]
+[mole106:43271] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fee7df7b94b]
+[mole106:43271] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fee7df7ae74]
+[mole108:148358] *** Process received signal ***
+[mole108:148358] Signal: Segmentation fault (11)
+[mole108:148358] Signal code:  (0)
+[mole108:148358] Failing at address: (nil)
+[mole108:148358] [ 0] /lib64/libc.so.6(+0x36280)[0x7f8943950280]
+[mole108:148358] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole108:148358] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f8943ff0103]
+[mole108:148358] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f8943fb194b]
+[mole108:148358] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f8943fb0e74]
+[mole110:137102] *** Process received signal ***
+[mole110:137102] Signal: Segmentation fault (11)
+[mole110:137102] Signal code:  (0)
+[mole110:137102] Failing at address: (nil)
+[mole110:137102] [ 0] /lib64/libc.so.6(+0x36280)[0x7fb21c95f280]
+[mole110:137102] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole110:137102] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fb21cfff103]
+[mole110:137102] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fb21cfc094b]
+[mole110:137102] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fb21cfbfe74]
+[mole111:185665] *** Process received signal ***
+[mole111:185665] Signal: Segmentation fault (11)
+[mole111:185665] Signal code:  (0)
+[mole111:185665] Failing at address: (nil)
+[mole111:185665] [ 0] /lib64/libc.so.6(+0x36280)[0x7fdc8d985280]
+[mole111:185665] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole111:185665] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fdc8e025103]
+[mole111:185665] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fdc8dfe694b]
+[mole111:185665] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fdc8dfe5e74]
+[mole107:72159] *** Process received signal ***
+[mole107:72159] Signal: Segmentation fault (11)
+[mole107:72159] Signal code:  (0)
+[mole107:72159] Failing at address: (nil)
+[mole107:72159] [ 0] /lib64/libc.so.6(+0x36280)[0x7f6e80246280]
+[mole107:72159] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:72159] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f6e808e6103]
+[mole107:72159] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f6e808a794b]
+[mole107:72159] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f6e808a6e74]
+[mole106:43271] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fee7dfba571]
+[mole106:43271] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fee7dcb8dd5]
+[mole106:43271] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fee7d9e1ead]
+[mole106:43271] *** End of error message ***
+[mole108:148358] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f8943ff0571]
+[mole108:148358] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f8943ceedd5]
+[mole108:148358] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f8943a17ead]
+[mole108:148358] *** End of error message ***
+[mole110:137102] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fb21cfff571]
+[mole110:137102] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fb21ccfddd5]
+[mole110:137102] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fb21ca26ead]
+[mole110:137102] *** End of error message ***
+[mole111:185665] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fdc8e025571]
+[mole111:185665] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fdc8dd23dd5]
+[mole111:185665] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fdc8da4cead]
+[mole111:185665] *** End of error message ***
+[mole107:72159] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f6e808e6571]
+[mole107:72159] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f6e805e4dd5]
+[mole107:72159] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f6e8030dead]
+[mole107:72159] *** End of error message ***
+[mole109:170255] *** Process received signal ***
+[mole109:170255] Signal: Segmentation fault (11)
+[mole109:170255] Signal code:  (0)
+[mole109:170255] Failing at address: (nil)
+[mole109:170255] [ 0] /lib64/libc.so.6(+0x36280)[0x7f1dce7fb280]
+[mole109:170255] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole109:170255] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f1dcee9b103]
+[mole109:170255] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f1dcee5c94b]
+[mole109:170255] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f1dcee5be74]
+[mole109:170255] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f1dcee9b571]
+[mole109:170255] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f1dceb99dd5]
+[mole109:170255] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f1dce8c2ead]
+[mole109:170255] *** End of error message ***
+[mole104:97508] *** Process received signal ***
+[mole104:97508] Signal: Segmentation fault (11)
+[mole104:97508] Signal code:  (0)
+[mole104:97508] Failing at address: (nil)
+[mole104:97508] [ 0] /lib64/libc.so.6(+0x36280)[0x7f898ff0e280]
+[mole104:97508] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:97508] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f89905ae103]
+[mole104:97508] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f899056f94b]
+[mole104:97508] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f899056ee74]
+[mole090:65602] *** Process received signal ***
+[mole090:65602] Signal: Segmentation fault (11)
+[mole090:65602] Signal code:  (0)
+[mole090:65602] Failing at address: (nil)
+[mole090:65602] [ 0] /lib64/libc.so.6(+0x36280)[0x7fe97c988280]
+[mole090:65602] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:65602] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fe97d028103]
+[mole090:65602] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fe97cfe994b]
+[mole090:65602] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fe97cfe8e74]
+srun: error: mole108: task 4: Segmentation fault
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole106: task 2: Segmentation fault
+[mole104:97508] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f89905ae571]
+[mole104:97508] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f89902acdd5]
+[mole104:97508] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f898ffd5ead]
+[mole104:97508] *** End of error message ***
+srun: error: mole111: task 7: Segmentation fault
+[mole090:65602] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fe97d028571]
+[mole090:65602] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fe97cd26dd5]
+[mole090:65602] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fe97ca4fead]
+[mole090:65602] *** End of error message ***
+srun: error: mole109: task 5: Segmentation fault
+srun: error: mole110: task 6: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 4.3593, TASKS, 8, THREADS, 8
+stdDev: 28.87
+TIME, 4.2659, TASKS, 8, THREADS, 4
+stdDev: 28.87
+TIME, 4.0983, TASKS, 8, THREADS, 2
+stdDev: 28.87
+TIME, 4.2539, TASKS, 8, THREADS, 1
+[mole106:43421] *** Process received signal ***
+[mole106:43421] Signal: Segmentation fault (11)
+[mole106:43421] Signal code:  (0)
+[mole106:43421] Failing at address: (nil)
+[mole106:43421] [ 0] /lib64/libc.so.6(+0x36280)[0x7f235a4aa280]
+[mole106:43421] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:43421] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f235ab4a103]
+[mole106:43421] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f235ab0b94b]
+[mole106:43421] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f235ab0ae74]
+[mole090:65986] *** Process received signal ***
+[mole090:65986] Signal: Segmentation fault (11)
+[mole090:65986] Signal code:  (0)
+[mole090:65986] Failing at address: (nil)
+[mole090:65986] [ 0] /lib64/libc.so.6(+0x36280)[0x7fc46d943280]
+[mole090:65986] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:65986] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc46dfe3103]
+[mole090:65986] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc46dfa494b]
+[mole090:65986] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc46dfa3e74]
+[mole107:72310] *** Process received signal ***
+[mole107:72310] Signal: Segmentation fault (11)
+[mole107:72310] Signal code:  (0)
+[mole107:72310] Failing at address: (nil)
+[mole107:72310] [ 0] /lib64/libc.so.6(+0x36280)[0x7f65b8923280]
+[mole107:72310] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:72310] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f65b8fc3103]
+[mole107:72310] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f65b8f8494b]
+[mole107:72310] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f65b8f83e74]
+[mole104:97639] *** Process received signal ***
+[mole104:97639] Signal: Segmentation fault (11)
+[mole104:97639] Signal code:  (0)
+[mole104:97639] Failing at address: (nil)
+[mole104:97639] [ 0] /lib64/libc.so.6(+0x36280)[0x7fce667b6280]
+[mole104:97639] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:97639] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fce66e56103]
+[mole104:97639] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fce66e1794b]
+[mole104:97639] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fce66e16e74]
+[mole106:43421] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f235ab4a571]
+[mole106:43421] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f235a848dd5]
+[mole106:43421] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f235a571ead]
+[mole106:43421] *** End of error message ***
+[mole107:72310] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f65b8fc3571]
+[mole107:72310] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f65b8cc1dd5]
+[mole107:72310] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f65b89eaead]
+[mole107:72310] *** End of error message ***
+[mole090:65986] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc46dfe3571]
+[mole090:65986] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc46dce1dd5]
+[mole090:65986] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc46da0aead]
+[mole090:65986] *** End of error message ***
+srun: error: mole106: task 2: Segmentation fault
+[mole104:97639] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fce66e56571]
+[mole104:97639] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fce66b54dd5]
+[mole104:97639] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fce6687dead]
+[mole104:97639] *** End of error message ***
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+stdDev: 28.87
+TIME, 8.7077, TASKS, 4, THREADS, 8
+stdDev: 28.87
+TIME, 8.7020, TASKS, 4, THREADS, 4
+stdDev: 28.87
+TIME, 8.7766, TASKS, 4, THREADS, 2
+stdDev: 28.87
+TIME, 8.5366, TASKS, 4, THREADS, 1
+[mole090:66454] *** Process received signal ***
+[mole090:66454] Signal: Segmentation fault (11)
+[mole090:66454] Signal code:  (0)
+[mole090:66454] Failing at address: (nil)
+[mole090:66454] [ 0] /lib64/libc.so.6(+0x36280)[0x7ff9298e3280]
+[mole090:66454] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:66454] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7ff929f83103]
+[mole090:66454] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7ff929f4494b]
+[mole090:66454] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7ff929f43e74]
+[mole104:97930] *** Process received signal ***
+[mole104:97930] Signal: Segmentation fault (11)
+[mole104:97930] Signal code:  (0)
+[mole104:97930] Failing at address: (nil)
+[mole104:97930] [ 0] /lib64/libc.so.6(+0x36280)[0x7f556a96c280]
+[mole104:97930] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:97930] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f556b00c103]
+[mole104:97930] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f556afcd94b]
+[mole104:97930] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f556afcce74]
+[mole090:66454] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7ff929f83571]
+[mole090:66454] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7ff929c81dd5]
+[mole090:66454] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7ff9299aaead]
+[mole090:66454] *** End of error message ***
+[mole104:97930] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f556b00c571]
+[mole104:97930] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f556ad0add5]
+[mole104:97930] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f556aa33ead]
+[mole104:97930] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+[mole090:66504] *** Process received signal ***
+[mole090:66504] Signal: Segmentation fault (11)
+[mole090:66504] Signal code:  (0)
+[mole090:66504] Failing at address: (nil)
+[mole090:66504] [ 0] /lib64/libc.so.6(+0x36280)[0x7fe45836a280]
+[mole090:66504] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:66504] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fe458a0a103]
+[mole090:66504] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fe4589cb94b]
+[mole090:66504] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fe4589cae74]
+[mole104:97970] *** Process received signal ***
+[mole104:97970] Signal: Segmentation fault (11)
+[mole104:97970] Signal code:  (0)
+[mole104:97970] Failing at address: (nil)
+[mole104:97970] [ 0] /lib64/libc.so.6(+0x36280)[0x7fc5e257a280]
+[mole104:97970] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:97970] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc5e2c1a103]
+[mole104:97970] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc5e2bdb94b]
+[mole104:97970] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc5e2bdae74]
+[mole090:66504] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fe458a0a571]
+[mole090:66504] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fe458708dd5]
+[mole090:66504] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fe458431ead]
+[mole090:66504] *** End of error message ***
+[mole104:97970] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc5e2c1a571]
+[mole104:97970] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc5e2918dd5]
+[mole104:97970] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc5e2641ead]
+[mole104:97970] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 17.9613, TASKS, 2, THREADS, 4
+stdDev: 28.87
+TIME, 17.2715, TASKS, 2, THREADS, 2
+stdDev: 28.87
+TIME, 17.5577, TASKS, 2, THREADS, 1
+[mole090:66684] *** Process received signal ***
+[mole090:66684] Signal: Segmentation fault (11)
+[mole090:66684] Associated errno: Unknown error 32562 (32562)
+[mole090:66684] Signal code:  (0)
+[mole090:66684] Failing at address: 0x14
+[mole090:66684] [ 0] /lib64/libc.so.6(+0x36280)[0x7f3237f2d280]
+[mole090:66684] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:66684] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f32385cd103]
+[mole090:66684] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f323858e94b]
+[mole090:66684] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f323858de74]
+[mole090:66684] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f32385cd571]
+[mole090:66684] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f32382cbdd5]
+[mole090:66684] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f3237ff4ead]
+[mole090:66684] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:66736] *** Process received signal ***
+[mole090:66736] Signal: Segmentation fault (11)
+[mole090:66736] Associated errno: Unknown error 32684 (32684)
+[mole090:66736] Signal code:  (0)
+[mole090:66736] Failing at address: 0x14
+[mole090:66736] [ 0] /lib64/libc.so.6(+0x36280)[0x7facc8ff3280]
+[mole090:66736] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:66736] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7facc9693103]
+[mole090:66736] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7facc965494b]
+[mole090:66736] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7facc9653e74]
+[mole090:66736] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7facc9693571]
+[mole090:66736] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7facc9391dd5]
+[mole090:66736] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7facc90baead]
+[mole090:66736] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:66778] *** Process received signal ***
+[mole090:66778] Signal: Segmentation fault (11)
+[mole090:66778] Associated errno: Unknown error 32550 (32550)
+[mole090:66778] Signal code:  (0)
+[mole090:66778] Failing at address: 0x14
+[mole090:66778] [ 0] /lib64/libc.so.6(+0x36280)[0x7f264df36280]
+[mole090:66778] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:66778] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f264e5d6103]
+[mole090:66778] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f264e59794b]
+[mole090:66778] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f264e596e74]
+[mole090:66778] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f264e5d6571]
+[mole090:66778] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f264e2d4dd5]
+[mole090:66778] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f264dffdead]
+[mole090:66778] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 36.3664, TASKS, 1, THREADS, 2
+stdDev: 28.87
+TIME, 35.8301, TASKS, 1, THREADS, 1
+stdDev: 28.87
+TIME, 2.1825, TASKS, 16, THREADS, 16
+stdDev: 28.87
+TIME, 2.1474, TASKS, 16, THREADS, 8
+stdDev: 28.87
+TIME, 2.1681, TASKS, 16, THREADS, 4
+stdDev: 28.87
+TIME, 2.1810, TASKS, 16, THREADS, 2
+stdDev: 28.87
+TIME, 2.1248, TASKS, 16, THREADS, 1
+[mole110:137608] *** Process received signal ***
+[mole110:137608] Signal: Segmentation fault (11)
+[mole110:137608] Signal code:  (0)
+[mole110:137608] Failing at address: (nil)
+[mole110:137608] [ 0] /lib64/libc.so.6(+0x36280)[0x7f85649b0280]
+[mole110:137608] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole110:137608] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f8565050103]
+[mole110:137608] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f856501194b]
+[mole110:137608] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f8565010e74]
+[mole106:43924] *** Process received signal ***
+[mole106:43924] Signal: Segmentation fault (11)
+[mole106:43924] Signal code:  (0)
+[mole106:43924] Failing at address: (nil)
+[mole106:43924] [ 0] /lib64/libc.so.6(+0x36280)[0x7fb1782c1280]
+[mole106:43924] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:43924] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fb178961103]
+[mole106:43924] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fb17892294b]
+[mole106:43924] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fb178921e74]
+[mole108:148867] *** Process received signal ***
+[mole108:148867] Signal: Segmentation fault (11)
+[mole108:148867] Signal code:  (0)
+[mole108:148867] Failing at address: (nil)
+[mole108:148867] [ 0] /lib64/libc.so.6(+0x36280)[0x7ff97899b280]
+[mole108:148867] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole108:148867] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7ff97903b103]
+[mole108:148867] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7ff978ffc94b]
+[mole108:148867] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7ff978ffbe74]
+[mole106:43924] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fb178961571]
+[mole106:43924] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fb17865fdd5]
+[mole106:43924] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fb178388ead]
+[mole106:43924] *** End of error message ***
+[mole108:148867] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7ff97903b571]
+[mole108:148867] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7ff978d39dd5]
+[mole108:148867] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7ff978a62ead]
+[mole108:148867] *** End of error message ***
+[mole110:137608] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f8565050571]
+[mole110:137608] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f8564d4edd5]
+[mole110:137608] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f8564a77ead]
+[mole110:137608] *** End of error message ***
+[mole107:72815] *** Process received signal ***
+[mole107:72815] Signal: Segmentation fault (11)
+[mole107:72815] Signal code:  (0)
+[mole107:72815] Failing at address: (nil)
+[mole107:72815] [ 0] /lib64/libc.so.6(+0x36280)[0x7f573a4d3280]
+[mole107:72815] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:72815] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f573ab73103]
+[mole107:72815] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f573ab3494b]
+[mole107:72815] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f573ab33e74]
+[mole109:170754] *** Process received signal ***
+[mole109:170754] Signal: Segmentation fault (11)
+[mole109:170754] Signal code:  (0)
+[mole109:170754] Failing at address: (nil)
+[mole109:170754] [ 0] /lib64/libc.so.6(+0x36280)[0x7fda20c56280]
+[mole109:170754] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole109:170754] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fda212f6103]
+[mole109:170754] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fda212b794b]
+[mole109:170754] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fda212b6e74]
+[mole111:186171] *** Process received signal ***
+[mole111:186171] Signal: Segmentation fault (11)
+[mole111:186171] Signal code:  (0)
+[mole111:186171] Failing at address: (nil)
+[mole111:186171] [ 0] /lib64/libc.so.6(+0x36280)[0x7f392dc97280]
+[mole111:186171] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole111:186171] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f392e337103]
+[mole111:186171] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f392e2f894b]
+[mole111:186171] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f392e2f7e74]
+[mole107:72815] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f573ab73571]
+[mole107:72815] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f573a871dd5]
+[mole107:72815] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f573a59aead]
+[mole107:72815] *** End of error message ***
+[mole109:170754] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fda212f6571]
+[mole109:170754] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fda20ff4dd5]
+[mole109:170754] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fda20d1dead]
+[mole109:170754] *** End of error message ***
+[mole111:186171] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f392e337571]
+[mole111:186171] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f392e035dd5]
+[mole111:186171] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f392dd5eead]
+[mole111:186171] *** End of error message ***
+[mole104:98440] *** Process received signal ***
+[mole104:98440] Signal: Segmentation fault (11)
+[mole104:98440] Signal code:  (0)
+[mole104:98440] Failing at address: (nil)
+[mole104:98440] [ 0] /lib64/libc.so.6(+0x36280)[0x7fda8e095280]
+[mole104:98440] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:98440] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fda8e735103]
+[mole104:98440] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fda8e6f694b]
+[mole104:98440] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fda8e6f5e74]
+[mole090:67597] *** Process received signal ***
+[mole090:67597] Signal: Segmentation fault (11)
+[mole090:67597] Signal code:  (0)
+[mole090:67597] Failing at address: (nil)
+[mole090:67597] [ 0] /lib64/libc.so.6(+0x36280)[0x7f200e135280]
+[mole090:67597] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:67597] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f200e7d5103]
+[mole090:67597] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f200e79694b]
+[mole090:67597] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f200e795e74]
+srun: error: mole108: task 4: Segmentation fault
+[mole104:98440] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fda8e735571]
+[mole104:98440] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fda8e433dd5]
+[mole104:98440] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fda8e15cead]
+[mole104:98440] *** End of error message ***
+srun: error: mole106: task 2: Segmentation fault
+srun: error: mole110: task 6: Segmentation fault
+srun: error: mole109: task 5: Segmentation fault
+srun: error: mole111: task 7: Segmentation fault
+[mole090:67597] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f200e7d5571]
+[mole090:67597] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f200e4d3dd5]
+[mole090:67597] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f200e1fcead]
+[mole090:67597] *** End of error message ***
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 4.4426, TASKS, 8, THREADS, 8
+stdDev: 28.87
+TIME, 4.8836, TASKS, 8, THREADS, 4
+stdDev: 28.87
+TIME, 4.3979, TASKS, 8, THREADS, 2
+stdDev: 28.87
+TIME, 4.3098, TASKS, 8, THREADS, 1
+[mole107:72964] *** Process received signal ***
+[mole107:72964] Signal: Segmentation fault (11)
+[mole107:72964] Signal code:  (0)
+[mole107:72964] Failing at address: (nil)
+[mole107:72964] [ 0] /lib64/libc.so.6(+0x36280)[0x7f9b0e05d280]
+[mole107:72964] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:72964] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f9b0e6fd103]
+[mole107:72964] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f9b0e6be94b]
+[mole107:72964] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f9b0e6bde74]
+[mole106:44080] *** Process received signal ***
+[mole106:44080] Signal: Segmentation fault (11)
+[mole106:44080] Signal code:  (0)
+[mole106:44080] Failing at address: (nil)
+[mole106:44080] [ 0] /lib64/libc.so.6(+0x36280)[0x7f8af3b3b280]
+[mole106:44080] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:44080] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f8af41db103]
+[mole106:44080] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f8af419c94b]
+[mole106:44080] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f8af419be74]
+[mole107:72964] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f9b0e6fd571]
+[mole107:72964] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f9b0e3fbdd5]
+[mole107:72964] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f9b0e124ead]
+[mole107:72964] *** End of error message ***
+[mole106:44080] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f8af41db571]
+[mole106:44080] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f8af3ed9dd5]
+[mole106:44080] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f8af3c02ead]
+[mole106:44080] *** End of error message ***
+[mole104:98570] *** Process received signal ***
+[mole104:98570] Signal: Segmentation fault (11)
+[mole104:98570] Signal code:  (0)
+[mole104:98570] Failing at address: (nil)
+[mole104:98570] [ 0] /lib64/libc.so.6(+0x36280)[0x7f58a8c1b280]
+[mole104:98570] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:98570] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f58a92bb103]
+[mole104:98570] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f58a927c94b]
+[mole104:98570] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f58a927be74]
+[mole090:67980] *** Process received signal ***
+[mole090:67980] Signal: Segmentation fault (11)
+[mole090:67980] Signal code:  (0)
+[mole090:67980] Failing at address: (nil)
+[mole090:67980] [ 0] /lib64/libc.so.6(+0x36280)[0x7ff8dc0c1280]
+[mole090:67980] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:67980] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7ff8dc761103]
+[mole090:67980] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7ff8dc72294b]
+[mole090:67980] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7ff8dc721e74]
+[mole104:98570] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f58a92bb571]
+[mole104:98570] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f58a8fb9dd5]
+[mole104:98570] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f58a8ce2ead]
+[mole104:98570] *** End of error message ***
+[mole090:67980] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7ff8dc761571]
+[mole090:67980] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7ff8dc45fdd5]
+[mole090:67980] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7ff8dc188ead]
+[mole090:67980] *** End of error message ***
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole106: task 2: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 8.9806, TASKS, 4, THREADS, 8
+stdDev: 28.87
+TIME, 8.9268, TASKS, 4, THREADS, 4
+stdDev: 28.87
+TIME, 8.3504, TASKS, 4, THREADS, 2
+stdDev: 28.87
+TIME, 8.8482, TASKS, 4, THREADS, 1
+[mole104:98708] *** Process received signal ***
+[mole104:98708] Signal: Segmentation fault (11)
+[mole104:98708] Signal code:  (0)
+[mole104:98708] Failing at address: (nil)
+[mole104:98708] [ 0] /lib64/libc.so.6(+0x36280)[0x7f022e7bf280]
+[mole104:98708] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:98708] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f022ee5f103]
+[mole104:98708] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f022ee2094b]
+[mole104:98708] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f022ee1fe74]
+[mole090:68256] *** Process received signal ***
+[mole090:68256] Signal: Segmentation fault (11)
+[mole090:68256] Signal code:  (0)
+[mole090:68256] Failing at address: (nil)
+[mole090:68256] [ 0] /lib64/libc.so.6(+0x36280)[0x7f82bcea8280]
+[mole090:68256] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:68256] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f82bd548103]
+[mole090:68256] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f82bd50994b]
+[mole090:68256] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f82bd508e74]
+[mole104:98708] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f022ee5f571]
+[mole104:98708] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f022eb5ddd5]
+[mole104:98708] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f022e886ead]
+[mole104:98708] *** End of error message ***
+[mole090:68256] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f82bd548571]
+[mole090:68256] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f82bd246dd5]
+[mole090:68256] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f82bcf6fead]
+[mole090:68256] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+[mole104:98743] *** Process received signal ***
+[mole104:98743] Signal: Segmentation fault (11)
+[mole104:98743] Signal code:  (0)
+[mole104:98743] Failing at address: (nil)
+[mole104:98743] [ 0] /lib64/libc.so.6(+0x36280)[0x7fbaf3132280]
+[mole104:98743] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:98743] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fbaf37d2103]
+[mole104:98743] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fbaf379394b]
+[mole104:98743] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fbaf3792e74]
+[mole090:68306] *** Process received signal ***
+[mole090:68306] Signal: Segmentation fault (11)
+[mole090:68306] Signal code:  (0)
+[mole090:68306] Failing at address: (nil)
+[mole090:68306] [ 0] /lib64/libc.so.6(+0x36280)[0x7f6912a5c280]
+[mole090:68306] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:68306] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f69130fc103]
+[mole090:68306] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f69130bd94b]
+[mole090:68306] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f69130bce74]
+[mole104:98743] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fbaf37d2571]
+[mole104:98743] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fbaf34d0dd5]
+[mole104:98743] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fbaf31f9ead]
+[mole104:98743] *** End of error message ***
+[mole090:68306] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f69130fc571]
+[mole090:68306] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f6912dfadd5]
+[mole090:68306] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f6912b23ead]
+[mole090:68306] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 17.9158, TASKS, 2, THREADS, 4
+stdDev: 28.87
+TIME, 18.3258, TASKS, 2, THREADS, 2
+stdDev: 28.87
+TIME, 17.9905, TASKS, 2, THREADS, 1
+stdDev: 28.87
+TIME, 35.9474, TASKS, 1, THREADS, 2
+stdDev: 28.87
+Signal: Segmentation fault (11)
+[mole090:68467] Associated errno: Unknown error 32611 (32611)
+[mole090:68467] Signal code:  (0)
+[mole090:68467] Failing at address: 0x14
+[mole090:68467] [ 0] /lib64/libc.so.6(+0x36280)[0x7f63f3721280]
+[mole090:68467] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:68467] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f63f3dc1103]
+[mole090:68467] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f63f3d8294b]
+[mole090:68467] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f63f3d81e74]
+[mole090:68467] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f63f3dc1571]
+[mole090:68467] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f63f3abfdd5]
+[mole090:68467] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f63f37e8ead]
+[mole090:68467] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:68516] *** Process received signal ***
+[mole090:68516] Signal: Segmentation fault (11)
+[mole090:68516] Associated errno: Unknown error 32538 (32538)
+[mole090:68516] Signal code:  (0)
+[mole090:68516] Failing at address: 0x14
+[mole090:68516] [ 0] /lib64/libc.so.6(+0x36280)[0x7f1a7f193280]
+[mole090:68516] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:68516] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f1a7f833103]
+[mole090:68516] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f1a7f7f494b]
+[mole090:68516] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f1a7f7f3e74]
+[mole090:68516] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f1a7f833571]
+[mole090:68516] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f1a7f531dd5]
+[mole090:68516] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f1a7f25aead]
+[mole090:68516] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:68570] *** Process received signal ***
+[mole090:68570] Signal: Segmentation fault (11)
+[mole090:68570] Associated errno: Unknown error 32585 (32585)
+[mole090:68570] Signal code:  (0)
+[mole090:68570] Failing at address: 0x14
+[mole090:68570] [ 0] /lib64/libc.so.6(+0x36280)[0x7f493f56f280]
+[mole090:68570] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:68570] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f493fc0f103]
+[mole090:68570] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f493fbd094b]
+[mole090:68570] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f493fbcfe74]
+[mole090:68570] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f493fc0f571]
+[mole090:68570] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f493f90ddd5]
+[mole090:68570] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f493f636ead]
+[mole090:68570] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+TIME, 35.7971, TASKS, 1, THREADS, 1
+stdDev: 28.87
+TIME, 2.0965, TASKS, 16, THREADS, 16
+stdDev: 28.87
+TIME, 2.1481, TASKS, 16, THREADS, 8
+stdDev: 28.87
+TIME, 2.2383, TASKS, 16, THREADS, 4
+stdDev: 28.87
+TIME, 2.1865, TASKS, 16, THREADS, 2
+stdDev: 28.87
+TIME, 2.0889, TASKS, 16, THREADS, 1
+[mole107:73656] *** Process received signal ***
+[mole107:73656] Signal: Segmentation fault (11)
+[mole107:73656] Signal code:  (0)
+[mole107:73656] Failing at address: (nil)
+[mole107:73656] [ 0] /lib64/libc.so.6(+0x36280)[0x7fe49cda1280]
+[mole107:73656] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:73656] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fe49d441103]
+[mole107:73656] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fe49d40294b]
+[mole107:73656] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fe49d401e74]
+[mole106:44496] *** Process received signal ***
+[mole106:44496] Signal: Segmentation fault (11)
+[mole106:44496] Signal code:  (0)
+[mole106:44496] Failing at address: (nil)
+[mole106:44496] [ 0] /lib64/libc.so.6(+0x36280)[0x7f48ee72f280]
+[mole106:44496] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:44496] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f48eedcf103]
+[mole106:44496] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f48eed9094b]
+[mole106:44496] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f48eed8fe74]
+[mole110:138026] *** Process received signal ***
+[mole110:138026] Signal: Segmentation fault (11)
+[mole110:138026] Signal code:  (0)
+[mole110:138026] Failing at address: (nil)
+[mole110:138026] [ 0] /lib64/libc.so.6(+0x36280)[0x7f785a693280]
+[mole110:138026] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole110:138026] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f785ad33103]
+[mole110:138026] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f785acf494b]
+[mole110:138026] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f785acf3e74]
+[mole109:171175] *** Process received signal ***
+[mole109:171175] Signal: Segmentation fault (11)
+[mole109:171175] Signal code:  (0)
+[mole109:171175] Failing at address: (nil)
+[mole109:171175] [ 0] /lib64/libc.so.6(+0x36280)[0x7fdd84912280]
+[mole109:171175] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole109:171175] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fdd84fb2103]
+[mole109:171175] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fdd84f7394b]
+[mole109:171175] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fdd84f72e74]
+[mole108:149551] *** Process received signal ***
+[mole108:149551] Signal: Segmentation fault (11)
+[mole108:149551] Signal code:  (0)
+[mole108:149551] Failing at address: (nil)
+[mole108:149551] [ 0] /lib64/libc.so.6(+0x36280)[0x7f7b93674280]
+[mole108:149551] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole108:149551] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f7b93d14103]
+[mole108:149551] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f7b93cd594b]
+[mole108:149551] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f7b93cd4e74]
+[mole111:186583] *** Process received signal ***
+[mole111:186583] Signal: Segmentation fault (11)
+[mole111:186583] Signal code:  (0)
+[mole111:186583] Failing at address: (nil)
+[mole111:186583] [ 0] /lib64/libc.so.6(+0x36280)[0x7fecd7952280]
+[mole111:186583] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole111:186583] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fecd7ff2103]
+[mole111:186583] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fecd7fb394b]
+[mole111:186583] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fecd7fb2e74]
+[mole104:99227] *** Process received signal ***
+[mole104:99227] Signal: Segmentation fault (11)
+[mole104:99227] Signal code:  (0)
+[mole104:99227] Failing at address: (nil)
+[mole104:99227] [ 0] /lib64/libc.so.6(+0x36280)[0x7fa1c9ff0280]
+[mole104:99227] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:99227] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fa1ca690103]
+[mole104:99227] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fa1ca65194b]
+[mole104:99227] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fa1ca650e74]
+[mole090:69395] *** Process received signal ***
+[mole090:69395] Signal: Segmentation fault (11)
+[mole090:69395] Signal code:  (0)
+[mole090:69395] Failing at address: (nil)
+[mole090:69395] [ 0] /lib64/libc.so.6(+0x36280)[0x7f4ad1c20280]
+[mole090:69395] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:69395] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4ad22c0103]
+[mole090:69395] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f4ad228194b]
+[mole090:69395] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f4ad2280e74]
+[mole111:186583] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fecd7ff2571]
+[mole111:186583] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fecd7cf0dd5]
+[mole111:186583] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fecd7a19ead]
+[mole111:186583] *** End of error message ***
+[mole107:73656] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fe49d441571]
+[mole107:73656] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fe49d13fdd5]
+[mole107:73656] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fe49ce68ead]
+[mole107:73656] *** End of error message ***
+[mole106:44496] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f48eedcf571]
+[mole106:44496] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f48eeacddd5]
+[mole106:44496] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f48ee7f6ead]
+[mole106:44496] *** End of error message ***
+[mole110:138026] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f785ad33571]
+[mole110:138026] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f785aa31dd5]
+[mole110:138026] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f785a75aead]
+[mole110:138026] *** End of error message ***
+[mole109:171175] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fdd84fb2571]
+[mole109:171175] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fdd84cb0dd5]
+[mole109:171175] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fdd849d9ead]
+[mole109:171175] *** End of error message ***
+[mole108:149551] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f7b93d14571]
+[mole108:149551] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f7b93a12dd5]
+[mole108:149551] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f7b9373bead]
+[mole108:149551] *** End of error message ***
+[mole104:99227] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fa1ca690571]
+[mole104:99227] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fa1ca38edd5]
+[mole104:99227] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fa1ca0b7ead]
+[mole104:99227] *** End of error message ***
+srun: error: mole111: task 7: Segmentation fault
+srun: error: mole109: task 5: Segmentation fault
+srun: error: mole106: task 2: Segmentation fault
+srun: error: mole108: task 4: Segmentation fault
+srun: error: mole110: task 6: Segmentation fault
+[mole090:69395] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f4ad22c0571]
+[mole090:69395] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f4ad1fbedd5]
+[mole090:69395] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f4ad1ce7ead]
+[mole090:69395] *** End of error message ***
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 4.4472, TASKS, 8, THREADS, 8
+stdDev: 28.87
+TIME, 4.7318, TASKS, 8, THREADS, 4
+stdDev: 28.87
+TIME, 4.4179, TASKS, 8, THREADS, 2
+stdDev: 28.87
+TIME, 4.4318, TASKS, 8, THREADS, 1
+[mole107:73807] *** Process received signal ***
+[mole107:73807] Signal: Segmentation fault (11)
+[mole107:73807] Signal code:  (0)
+[mole107:73807] Failing at address: (nil)
+[mole107:73807] [ 0] /lib64/libc.so.6(+0x36280)[0x7f8f7b53b280]
+[mole107:73807] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole107:73807] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f8f7bbdb103]
+[mole107:73807] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f8f7bb9c94b]
+[mole107:73807] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f8f7bb9be74]
+[mole106:44647] *** Process received signal ***
+[mole106:44647] Signal: Segmentation fault (11)
+[mole106:44647] Signal code:  (0)
+[mole106:44647] Failing at address: (nil)
+[mole106:44647] [ 0] /lib64/libc.so.6(+0x36280)[0x7f3704ced280]
+[mole106:44647] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole106:44647] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f370538d103]
+[mole106:44647] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f370534e94b]
+[mole106:44647] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f370534de74]
+[mole107:73807] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f8f7bbdb571]
+[mole107:73807] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f8f7b8d9dd5]
+[mole107:73807] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f8f7b602ead]
+[mole107:73807] *** End of error message ***
+[mole090:69784] *** Process received signal ***
+[mole090:69784] Signal: Segmentation fault (11)
+[mole090:69784] Signal code:  (0)
+[mole090:69784] Failing at address: (nil)
+[mole090:69784] [ 0] /lib64/libc.so.6(+0x36280)[0x7f35ad992280]
+[mole090:69784] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:69784] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f35ae032103]
+[mole090:69784] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f35adff394b]
+[mole090:69784] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f35adff2e74]
+[mole104:99358] *** Process received signal ***
+[mole104:99358] Signal: Segmentation fault (11)
+[mole104:99358] Signal code:  (0)
+[mole104:99358] Failing at address: (nil)
+[mole104:99358] [ 0] /lib64/libc.so.6(+0x36280)[0x7efdfa0ec280]
+[mole104:99358] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:99358] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7efdfa78c103]
+[mole104:99358] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7efdfa74d94b]
+[mole104:99358] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7efdfa74ce74]
+[mole106:44647] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f370538d571]
+[mole106:44647] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f370508bdd5]
+[mole106:44647] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f3704db4ead]
+[mole106:44647] *** End of error message ***
+[mole090:69784] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f35ae032571]
+[mole090:69784] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f35add30dd5]
+[mole090:69784] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f35ada59ead]
+[mole090:69784] *** End of error message ***
+[mole104:99358] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7efdfa78c571]
+[mole104:99358] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7efdfa48add5]
+[mole104:99358] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7efdfa1b3ead]
+[mole104:99358] *** End of error message ***
+srun: error: mole106: task 2: Segmentation fault
+srun: error: mole107: task 3: Segmentation fault
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.86
+TIME, 8.7384, TASKS, 4, THREADS, 8
+stdDev: 28.87
+TIME, 8.6910, TASKS, 4, THREADS, 4
+stdDev: 28.87
+TIME, 8.8206, TASKS, 4, THREADS, 2
+stdDev: 28.87
+TIME, 9.5918, TASKS, 4, THREADS, 1
+[mole104:99494] *** Process received signal ***
+[mole104:99494] Signal: Segmentation fault (11)
+[mole104:99494] Signal code:  (0)
+[mole104:99494] Failing at address: (nil)
+[mole104:99494] [ 0] /lib64/libc.so.6(+0x36280)[0x7f2f240e3280]
+[mole104:99494] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:99494] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f2f24783103]
+[mole104:99494] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f2f2474494b]
+[mole104:99494] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f2f24743e74]
+[mole090:70059] *** Process received signal ***
+[mole090:70059] Signal: Segmentation fault (11)
+[mole090:70059] Signal code:  (0)
+[mole090:70059] Failing at address: (nil)
+[mole090:70059] [ 0] /lib64/libc.so.6(+0x36280)[0x7fa166ca5280]
+[mole090:70059] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:70059] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fa167345103]
+[mole090:70059] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fa16730694b]
+[mole090:70059] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fa167305e74]
+[mole104:99494] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f2f24783571]
+[mole104:99494] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f2f24481dd5]
+[mole104:99494] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f2f241aaead]
+[mole104:99494] *** End of error message ***
+[mole090:70059] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fa167345571]
+[mole090:70059] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fa167043dd5]
+[mole090:70059] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fa166d6cead]
+[mole090:70059] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+[mole104:99529] *** Process received signal ***
+[mole104:99529] Signal: Segmentation fault (11)
+[mole104:99529] Signal code:  (0)
+[mole104:99529] Failing at address: (nil)
+[mole104:99529] [ 0] /lib64/libc.so.6(+0x36280)[0x7f19475ae280]
+[mole104:99529] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole104:99529] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f1947c4e103]
+[mole104:99529] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f1947c0f94b]
+[mole104:99529] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f1947c0ee74]
+[mole090:70109] *** Process received signal ***
+[mole090:70109] Signal: Segmentation fault (11)
+[mole090:70109] Signal code:  (0)
+[mole090:70109] Failing at address: (nil)
+[mole090:70109] [ 0] /lib64/libc.so.6(+0x36280)[0x7fd715c83280]
+[mole090:70109] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:70109] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fd716323103]
+[mole090:70109] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fd7162e494b]
+[mole090:70109] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fd7162e3e74]
+[mole104:99529] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f1947c4e571]
+[mole104:99529] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f194794cdd5]
+[mole104:99529] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f1947675ead]
+[mole104:99529] *** End of error message ***
+[mole090:70109] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fd716323571]
+[mole090:70109] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fd716021dd5]
+[mole090:70109] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fd715d4aead]
+[mole090:70109] *** End of error message ***
+srun: error: mole104: task 1: Segmentation fault
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 17.7892, TASKS, 2, THREADS, 4
+stdDev: 28.87
+TIME, 18.0099, TASKS, 2, THREADS, 2
+stdDev: 28.87
+TIME, 17.6584, TASKS, 2, THREADS, 1
+[mole090:70461] *** Process received signal ***
+[mole090:70461] Signal: Segmentation fault (11)
+[mole090:70461] Associated errno: Unknown error 32593 (32593)
+[mole090:70461] Signal code:  (0)
+[mole090:70461] Failing at address: 0x14
+[mole090:70461] [ 0] /lib64/libc.so.6(+0x36280)[0x7f519b432280]
+[mole090:70461] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:70461] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f519bad2103]
+[mole090:70461] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f519ba9394b]
+[mole090:70461] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f519ba92e74]
+[mole090:70461] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f519bad2571]
+[mole090:70461] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f519b7d0dd5]
+[mole090:70461] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f519b4f9ead]
+[mole090:70461] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:70506] *** Process received signal ***
+[mole090:70506] Signal: Segmentation fault (11)
+[mole090:70506] Associated errno: Unknown error 32658 (32658)
+[mole090:70506] Signal code:  (0)
+[mole090:70506] Failing at address: 0x14
+[mole090:70506] [ 0] /lib64/libc.so.6(+0x36280)[0x7f9268e07280]
+[mole090:70506] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:70506] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f92694a7103]
+[mole090:70506] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f926946894b]
+[mole090:70506] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f9269467e74]
+[mole090:70506] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f92694a7571]
+[mole090:70506] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f92691a5dd5]
+[mole090:70506] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f9268eceead]
+[mole090:70506] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+[mole090:70544] *** Process received signal ***
+[mole090:70544] Signal: Segmentation fault (11)
+[mole090:70544] Associated errno: Unknown error 32700 (32700)
+[mole090:70544] Signal code:  (0)
+[mole090:70544] Failing at address: 0x14
+[mole090:70544] [ 0] /lib64/libc.so.6(+0x36280)[0x7fbc58f18280]
+[mole090:70544] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5[0x402680]
+[mole090:70544] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fbc595b8103]
+[mole090:70544] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fbc5957994b]
+[mole090:70544] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fbc59578e74]
+[mole090:70544] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fbc595b8571]
+[mole090:70544] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fbc592b6dd5]
+[mole090:70544] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fbc58fdfead]
+[mole090:70544] *** End of error message ***
+srun: error: mole090: task 0: Segmentation fault
+stdDev: 28.87
+TIME, 35.5349, TASKS, 1, THREADS, 2
+stdDev: 28.87
+TIME, 35.5396, TASKS, 1, THREADS, 1

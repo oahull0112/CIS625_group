@@ -1,3 +1,10 @@
+/*
+Olivia Hull
+Dakota Reynolds
+Trey Moddelmog
+Homework 5 - Hybrid MPI Programming
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -95,6 +102,7 @@ int main(int argc, char *argv[])
     }
     mean = mean / numTasks;
 
+    // each task calculates their partial sum
     #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum)
     {
         myThreadID = omp_get_thread_num();
@@ -131,9 +139,6 @@ int main(int argc, char *argv[])
         stdDev = sqrt(stdDev);
         printf("stdDev: %0.2f\n", stdDev);
     }
-    
-    free(numbers);
-    free(receiveBuff);
 
     if (rank == 0)
     {
@@ -144,6 +149,8 @@ int main(int argc, char *argv[])
         printf("TIME, %0.4f, TASKS, %d, THREADS, %d\n", timeElapsed, numTasks, numThreads);
     }
 
+    free(numbers);
+    free(receiveBuff);
     MPI_Finalize();
     return 0;
 }
