@@ -89,10 +89,10 @@ int main(int argc, char *argv[])
     {
         sum += numbers[i];
     }
-    mean =  (double) sum / num_N;
+    //mean =  (double) sum / num_N;
 
     // each task gathers every tasks mean
-    MPI_Allgather(&mean, 1, MPI_DOUBLE, receiveBuff, 1, MPI_DOUBLE, MPI_COMM_WORLD);
+    MPI_Allgather(&sum, 1, MPI_DOUBLE, receiveBuff, 1, MPI_DOUBLE, MPI_COMM_WORLD);
 
     // each task calculates the true mean
     mean = 0;
@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
     {
         mean += receiveBuff[i];
     }
-    mean = mean / numTasks;
+    mean = mean / num_N_Global;
 
     // each task calculates their partial sum
     #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum)
