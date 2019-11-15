@@ -3,7 +3,7 @@
 #SBATCH --time=00-00:01:00
 #SBATCH --constraint=elves
 ##SBATCH --partition=batch.q,killable.q
-#SBATCH --mem=5G
+#SBATCH --mem=1G
 
 ##SBATCH -N 1
 ##SBATCH -n 1
