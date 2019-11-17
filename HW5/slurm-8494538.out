@@ -1,0 +1,100 @@
+[elf11:32324] *** Process received signal ***
+[elf11:32324] Signal: Segmentation fault (11)
+[elf11:32324] Signal code: Address not mapped (1)
+[elf11:32324] Failing at address: 0x7fa29c242e10
+[elf15:12147] *** Process received signal ***
+[elf15:12147] Signal: Segmentation fault (11)
+[elf15:12147] Signal code: Address not mapped (1)
+[elf15:12147] Failing at address: 0x7f1535668e10
+[elf19:23395] *** Process received signal ***
+[elf19:23395] Signal: Segmentation fault (11)
+[elf19:23395] Signal code: Invalid permissions (2)
+[elf19:23395] Failing at address: 0x7fe7b4d4c410
+[elf18:14332] *** Process received signal ***
+[elf18:14332] Signal: Segmentation fault (11)
+[elf18:14332] Signal code: Invalid permissions (2)
+[elf18:14332] Failing at address: 0x7f55fc408c90
+srun: error: elf19: task 3: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf11: task 0: Segmentation fault
+srun: error: elf15: task 1: Segmentation fault
+[elf11:32381] *** Process received signal ***
+[elf11:32381] Signal: Segmentation fault (11)
+[elf11:32381] Signal code: Invalid permissions (2)
+[elf11:32381] Failing at address: 0x7f7249a24c90
+[elf19:23426] *** Process received signal ***
+[elf19:23426] Signal: Segmentation fault (11)
+[elf19:23426] Signal code: Address not mapped (1)
+[elf19:23426] Failing at address: 0x7fcb9c6f0e10
+[elf15:12178] *** Process received signal ***
+[elf15:12178] Signal: Segmentation fault (11)
+[elf15:12178] Signal code: Invalid permissions (2)
+[elf15:12178] Failing at address: 0x7f24020b0e10
+[elf18:14363] *** Process received signal ***
+[elf18:14363] Signal: Segmentation fault (11)
+[elf18:14363] Signal code: Address not mapped (1)
+[elf18:14363] Failing at address: 0x7fd0931eae10
+srun: error: elf11: task 0: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf15: task 1: Segmentation fault
+srun: error: elf19: task 3: Segmentation fault
+[elf11:32440] *** Process received signal ***
+[elf11:32440] Signal: Segmentation fault (11)
+[elf11:32440] Signal code: Invalid permissions (2)
+[elf11:32440] Failing at address: 0x7f213f321e10
+[elf19:23457] *** Process received signal ***
+[elf19:23457] Signal: Segmentation fault (11)
+[elf19:23457] Signal code: Invalid permissions (2)
+[elf19:23457] Failing at address: 0x7f6335d91e10
+[elf15:12210] *** Process received signal ***
+[elf15:12210] Signal: Segmentation fault (11)
+[elf15:12210] Signal code: Invalid permissions (2)
+[elf15:12210] Failing at address: 0x7fa8f816f410
+[elf18:14394] *** Process received signal ***
+[elf18:14394] Signal: Segmentation fault (11)
+[elf18:14394] Signal code: Invalid permissions (2)
+[elf18:14394] Failing at address: 0x7effdceab110
+srun: error: elf15: task 1: Segmentation fault
+srun: error: elf11: task 0: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf19: task 3: Segmentation fault
+[elf11:32497] *** Process received signal ***
+[elf11:32497] Signal: Segmentation fault (11)
+[elf11:32497] Signal code: Invalid permissions (2)
+[elf11:32497] Failing at address: 0x7f6bd36e2e10
+[elf19:23488] *** Process received signal ***
+[elf19:23488] Signal: Segmentation fault (11)
+[elf19:23488] Signal code: Invalid permissions (2)
+[elf19:23488] Failing at address: 0x7f71e2b38c90
+[elf15:12241] *** Process received signal ***
+[elf15:12241] Signal: Segmentation fault (11)
+[elf15:12241] Signal code: Invalid permissions (2)
+[elf15:12241] Failing at address: 0x7f7db0ef0410
+[elf18:14425] *** Process received signal ***
+[elf18:14425] Signal: Segmentation fault (11)
+[elf18:14425] Signal code: Address not mapped (1)
+[elf18:14425] Failing at address: 0x7f92e91d5e10
+srun: error: elf15: task 1: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf19: task 3: Segmentation fault
+srun: error: elf11: task 0: Segmentation fault
+[elf11:32555] *** Process received signal ***
+[elf11:32555] Signal: Segmentation fault (11)
+[elf11:32555] Signal code: Address not mapped (1)
+[elf11:32555] Failing at address: 0x7f5c6a116e10
+[elf19:23519] *** Process received signal ***
+[elf19:23519] Signal: Segmentation fault (11)
+[elf19:23519] Signal code: Invalid permissions (2)
+[elf19:23519] Failing at address: 0x7f7f2c1ffe10
+[elf18:14456] *** Process received signal ***
+[elf18:14456] Signal: Segmentation fault (11)
+[elf18:14456] Signal code: Address not mapped (1)
+[elf18:14456] Failing at address: 0x7f39e4f64e10
+[elf15:12272] *** Process received signal ***
+[elf15:12272] Signal: Segmentation fault (11)
+[elf15:12272] Signal code: Invalid permissions (2)
+[elf15:12272] Failing at address: 0x7f8351ff4410
+srun: error: elf19: task 3: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf15: task 1: Segmentation fault
+srun: error: elf11: task 0: Segmentation fault

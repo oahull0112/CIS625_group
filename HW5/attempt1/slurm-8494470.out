@@ -1,0 +1,5 @@
+slurmstepd: error: Detected 1 oom-kill event(s) in step 8494470.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: elf83: task 0: Out Of Memory
+slurmstepd: error: *** JOB 8494470 ON elf83 CANCELLED AT 2019-11-17T12:25:35 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 1 oom-kill event(s) in step 8494470.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: *** STEP 8494470.1 ON elf83 CANCELLED AT 2019-11-17T12:25:35 DUE TO TIME LIMIT ***

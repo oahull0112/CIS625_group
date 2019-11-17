@@ -1,0 +1,59 @@
+[elf37:31402] *** Process received signal ***
+[elf37:31402] Signal: Segmentation fault (11)
+[elf37:31402] Signal code: Address not mapped (1)
+[elf37:31402] Failing at address: 0x7f2683c89810
+[elf38:21567] *** Process received signal ***
+[elf38:21567] Signal: Segmentation fault (11)
+[elf38:21567] Signal code: Address not mapped (1)
+[elf38:21567] Failing at address: 0x7fedaabb9810
+srun: error: elf38: task 1: Segmentation fault
+srun: error: elf37: task 0: Segmentation fault
+[elf38:21604] *** Process received signal ***
+[elf38:21604] Signal: Segmentation fault (11)
+[elf38:21604] Signal code: Address not mapped (1)
+[elf38:21604] Failing at address: 0x7f794789c810
+[elf37:31491] *** Process received signal ***
+[elf37:31491] Signal: Segmentation fault (11)
+[elf37:31491] Signal code: Address not mapped (1)
+[elf37:31491] Failing at address: 0x7f3892cab810
+srun: error: elf38: task 1: Segmentation fault
+srun: error: elf37: task 0: Segmentation fault
+[elf38:21627] *** Process received signal ***
+[elf38:21627] Signal: Segmentation fault (11)
+[elf38:21627] Signal code: Address not mapped (1)
+[elf38:21627] Failing at address: 0x7f705a7b1810
+[elf37:31555] *** Process received signal ***
+[elf37:31555] Signal: Segmentation fault (11)
+[elf37:31555] Signal code: Address not mapped (1)
+[elf37:31555] Failing at address: 0x7f2c9d446210
+[elf38:21627] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f71300715d0]
+[elf38:21627] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf38:21627] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f713036b103]
+[elf38:21627] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f713032c94b]
+[elf38:21627] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f713032be74]
+[elf38:21627] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f713036b571]
+[elf38:21627] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f7130069dd5]
+[elf38:21627] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f712fd92ead]
+[elf38:21627] *** End of error message ***
+srun: error: elf38: task 1: Segmentation fault
+srun: error: elf37: task 0: Segmentation fault
+[elf37:31625] *** Process received signal ***
+[elf37:31625] Signal: Segmentation fault (11)
+[elf37:31625] Signal code: Invalid permissions (2)
+[elf37:31625] Failing at address: 0x7f20ebad5610
+[elf38:21651] *** Process received signal ***
+[elf38:21651] Signal: Segmentation fault (11)
+[elf38:21651] Signal code: Address not mapped (1)
+[elf38:21651] Failing at address: 0x7f59e09fe810
+srun: error: elf38: task 1: Segmentation fault
+srun: error: elf37: task 0: Segmentation fault
+[elf37:31699] *** Process received signal ***
+[elf37:31699] Signal: Segmentation fault (11)
+[elf37:31699] Signal code: Invalid permissions (2)
+[elf37:31699] Failing at address: 0x7f0526343210
+[elf38:21674] *** Process received signal ***
+[elf38:21674] Signal: Segmentation fault (11)
+[elf38:21674] Signal code: Address not mapped (1)
+[elf38:21674] Failing at address: 0x7f63bde00810
+srun: error: elf37: task 0: Segmentation fault
+srun: error: elf38: task 1: Segmentation fault

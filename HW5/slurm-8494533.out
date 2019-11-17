@@ -1,0 +1,25 @@
+[elf37:31947] *** Process received signal ***
+[elf37:31947] Signal: Segmentation fault (11)
+[elf37:31947] Signal code: Invalid permissions (2)
+[elf37:31947] Failing at address: 0x7ff12de06c10
+srun: error: elf37: task 0: Segmentation fault
+[elf37:31981] *** Process received signal ***
+[elf37:31981] Signal: Segmentation fault (11)
+[elf37:31981] Signal code: Address not mapped (1)
+[elf37:31981] Failing at address: 0x7fd03e134c10
+srun: error: elf37: task 0: Segmentation fault
+[elf37:32017] *** Process received signal ***
+[elf37:32017] Signal: Segmentation fault (11)
+[elf37:32017] Signal code: Address not mapped (1)
+[elf37:32017] Failing at address: 0x7f65ce52f810
+srun: error: elf37: task 0: Segmentation fault
+[elf37:32051] *** Process received signal ***
+[elf37:32051] Signal: Segmentation fault (11)
+[elf37:32051] Signal code: Address not mapped (1)
+[elf37:32051] Failing at address: 0x7faed00bcc10
+srun: error: elf37: task 0: Segmentation fault
+[elf37:32085] *** Process received signal ***
+[elf37:32085] Signal: Segmentation fault (11)
+[elf37:32085] Signal code: Invalid permissions (2)
+[elf37:32085] Failing at address: 0x7ff947fa7c10
+srun: error: elf37: task 0: Segmentation fault

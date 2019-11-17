@@ -1,0 +1,9 @@
+stdDev: 28.87
+TIME, 181.8699, TASKS, 2, THREADS, 2
+stdDev: 28.87
+TIME, 174.9697, TASKS, 2, THREADS, 2
+stdDev: 28.87
+TIME, 194.0600, TASKS, 2, THREADS, 2
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 8494471.3 ON elf80 CANCELLED AT 2019-11-17T12:25:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 8494471 ON elf80 CANCELLED AT 2019-11-17T12:25:35 DUE TO TIME LIMIT ***

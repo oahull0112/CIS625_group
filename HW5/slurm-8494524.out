@@ -1,0 +1,11 @@
+slurmstepd: error: Detected 1 oom-kill event(s) in step 8494524.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: elf35: task 0: Out Of Memory
+slurmstepd: error: Detected 1 oom-kill event(s) in step 8494524.1 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: elf35: task 0: Out Of Memory
+slurmstepd: error: Detected 1 oom-kill event(s) in step 8494524.2 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: elf35: task 0: Out Of Memory
+slurmstepd: error: Detected 1 oom-kill event(s) in step 8494524.3 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: elf35: task 0: Out Of Memory
+slurmstepd: error: Detected 1 oom-kill event(s) in step 8494524.4 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: elf35: task 0: Out Of Memory
+slurmstepd: error: Detected 5 oom-kill event(s) in step 8494524.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

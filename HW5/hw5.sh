@@ -2,7 +2,6 @@
 #SBATCH --job-name="625hw5"
 #SBATCH --nodes=16
 #SBATCH --time=00-23:00:00
-#SBATCH --partition=batch.q,killable.q
 #SBATCH --mem=10G
 
 module purge

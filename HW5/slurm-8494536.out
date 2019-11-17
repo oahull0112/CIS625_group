@@ -1,0 +1,25 @@
+[elf11:32679] *** Process received signal ***
+[elf11:32679] Signal: Segmentation fault (11)
+[elf11:32679] Signal code: Invalid permissions (2)
+[elf11:32679] Failing at address: 0x7f594b29cc10
+srun: error: elf11: task 0: Segmentation fault
+[elf11:32722] *** Process received signal ***
+[elf11:32722] Signal: Segmentation fault (11)
+[elf11:32722] Signal code: Invalid permissions (2)
+[elf11:32722] Failing at address: 0x7f7636d23c10
+srun: error: elf11: task 0: Segmentation fault
+[elf11:32764] *** Process received signal ***
+[elf11:32764] Signal: Segmentation fault (11)
+[elf11:32764] Signal code: Invalid permissions (2)
+[elf11:32764] Failing at address: 0x7f209b905e10
+srun: error: elf11: task 0: Segmentation fault
+[elf11:32808] *** Process received signal ***
+[elf11:32808] Signal: Segmentation fault (11)
+[elf11:32808] Signal code: Address not mapped (1)
+[elf11:32808] Failing at address: 0x7ff151c53410
+srun: error: elf11: task 0: Segmentation fault
+[elf11:32851] *** Process received signal ***
+[elf11:32851] Signal: Segmentation fault (11)
+[elf11:32851] Signal code: Address not mapped (1)
+[elf11:32851] Failing at address: 0x7fcfef051e10
+srun: error: elf11: task 0: Segmentation fault

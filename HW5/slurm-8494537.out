@@ -1,0 +1,59 @@
+[elf37:31007] *** Process received signal ***
+[elf37:31007] Signal: Segmentation fault (11)
+[elf37:31007] Signal code: Address not mapped (1)
+[elf37:31007] Failing at address: 0x7f06c2007910
+[elf38:21354] *** Process received signal ***
+[elf38:21354] Signal: Segmentation fault (11)
+[elf38:21354] Signal code: Invalid permissions (2)
+[elf38:21354] Failing at address: 0x7f9714781c10
+[elf38:21354] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f97c5c875d0]
+[elf38:21354] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf38:21354] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f97c5f81103]
+[elf38:21354] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f97c5f4294b]
+[elf38:21354] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f97c5f41e74]
+[elf38:21354] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f97c5f81571]
+[elf38:21354] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f97c5c7fdd5]
+[elf38:21354] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f97c59a8ead]
+[elf38:21354] *** End of error message ***
+srun: error: elf37: task 0: Segmentation fault
+srun: error: elf38: task 1: Segmentation fault
+[elf37:31054] *** Process received signal ***
+[elf37:31054] Signal: Segmentation fault (11)
+[elf37:31054] Signal code: Invalid permissions (2)
+[elf37:31054] Failing at address: 0x7fab9e197c10
+[elf38:21386] *** Process received signal ***
+[elf38:21386] Signal: Segmentation fault (11)
+[elf38:21386] Signal code: Invalid permissions (2)
+[elf38:21386] Failing at address: 0x7fc141f30c10
+srun: error: elf38: task 1: Segmentation fault
+srun: error: elf37: task 0: Segmentation fault
+[elf37:31101] *** Process received signal ***
+[elf37:31101] Signal: Segmentation fault (11)
+[elf37:31101] Signal code: Invalid permissions (2)
+[elf37:31101] Failing at address: 0x7fe42e764c10
+[elf38:21418] *** Process received signal ***
+[elf38:21418] Signal: Segmentation fault (11)
+[elf38:21418] Signal code: Invalid permissions (2)
+[elf38:21418] Failing at address: 0x7f2ed9599c10
+srun: error: elf38: task 1: Segmentation fault
+srun: error: elf37: task 0: Segmentation fault
+[elf37:31149] *** Process received signal ***
+[elf37:31149] Signal: Segmentation fault (11)
+[elf37:31149] Signal code: Invalid permissions (2)
+[elf37:31149] Failing at address: 0x7f20e1816c10
+[elf38:21450] *** Process received signal ***
+[elf38:21450] Signal: Segmentation fault (11)
+[elf38:21450] Signal code: Invalid permissions (2)
+[elf38:21450] Failing at address: 0x7f5ba3598c10
+srun: error: elf38: task 1: Segmentation fault
+srun: error: elf37: task 0: Segmentation fault
+[elf38:21481] *** Process received signal ***
+[elf38:21481] Signal: Segmentation fault (11)
+[elf38:21481] Signal code: Invalid permissions (2)
+[elf38:21481] Failing at address: 0x7f0629016c10
+[elf37:31196] *** Process received signal ***
+[elf37:31196] Signal: Segmentation fault (11)
+[elf37:31196] Signal code: Invalid permissions (2)
+[elf37:31196] Failing at address: 0x7f2b76033c10
+srun: error: elf37: task 0: Segmentation fault
+srun: error: elf38: task 1: Segmentation fault

@@ -1,0 +1,560 @@
+[elf11:31862] *** Process received signal ***
+[elf11:31862] Signal: Segmentation fault (11)
+[elf11:31862] Signal code: Invalid permissions (2)
+[elf11:31862] Failing at address: 0x7fa92529dcd0
+[elf15:11958] *** Process received signal ***
+[elf15:11958] Signal: Segmentation fault (11)
+[elf15:11958] Signal code: Invalid permissions (2)
+[elf15:11958] Failing at address: 0x7fee8dd14cd0
+[elf18:14135] *** Process received signal ***
+[elf18:14135] Signal: Segmentation fault (11)
+[elf18:14135] Signal code: Invalid permissions (2)
+[elf18:14135] Failing at address: 0x7f58e5556cd0
+[elf24:45526] *** Process received signal ***
+[elf24:45526] Signal: Segmentation fault (11)
+[elf24:45526] Signal code: Invalid permissions (2)
+[elf24:45526] Failing at address: 0x7fed94503cd0
+[elf31:27784] *** Process received signal ***
+[elf31:27784] Signal: Segmentation fault (11)
+[elf31:27784] Signal code: Invalid permissions (2)
+[elf31:27784] Failing at address: 0x7fa37dd6acd0
+[elf19:23212] *** Process received signal ***
+[elf19:23212] Signal: Segmentation fault (11)
+[elf19:23212] Signal code: Invalid permissions (2)
+[elf19:23212] Failing at address: 0x7f8253d00cd0
+[elf26:17277] *** Process received signal ***
+[elf26:17277] Signal: Segmentation fault (11)
+[elf26:17277] Signal code: Invalid permissions (2)
+[elf26:17277] Failing at address: 0x7f332dc51cd0
+[elf26:17277] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f337cfea5d0]
+[elf26:17277] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf26:17277] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f337d2e4103]
+[elf26:17277] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f337d2a594b]
+[elf26:17277] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f337d2a4e74]
+[elf29:16232] *** Process received signal ***
+[elf29:16232] Signal: Segmentation fault (11)
+[elf29:16232] Signal code: Invalid permissions (2)
+[elf29:16232] Failing at address: 0x7f691c800cd0
+srun: error: elf11: task 0: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf19: task 3: Segmentation fault
+srun: error: elf24: task 4: Segmentation fault
+[elf18:14135] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f59348dd5d0]
+[elf18:14135] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf18:14135] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f5934bd7103]
+[elf18:14135] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f5934b9894b]
+[elf18:14135] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f5934b97e74]
+[elf18:14135] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f5934bd7571]
+[elf18:14135] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f59348d5dd5]
+[elf18:14135] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f59345feead]
+[elf18:14135] *** End of error message ***
+[elf19:23212] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f82a30965d0]
+[elf19:23212] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf19:23212] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f82a3390103]
+[elf19:23212] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f82a335194b]
+[elf19:23212] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f82a3350e74]
+[elf19:23212] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f82a3390571]
+[elf19:23212] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f82a308edd5]
+[elf19:23212] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f82a2db7ead]
+[elf19:23212] *** End of error message ***
+srun: error: elf26: task 5: Segmentation fault
+[elf24:45526] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fede38c55d0]
+[elf24:45526] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf24:45526] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fede3bbf103]
+[elf24:45526] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fede3b8094b]
+[elf24:45526] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fede3b7fe74]
+[elf24:45526] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fede3bbf571]
+[elf24:45526] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fede38bddd5]
+[elf24:45526] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fede35e6ead]
+[elf24:45526] *** End of error message ***
+srun: error: elf31: task 7: Segmentation fault
+srun: error: elf15: task 1: Segmentation fault
+srun: error: elf29: task 6: Segmentation fault
+[elf26:17277] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f337d2e4571]
+[elf26:17277] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f337cfe2dd5]
+[elf26:17277] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f337cd0bead]
+[elf26:17277] *** End of error message ***
+[elf31:27784] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fa3cd10d5d0]
+[elf31:27784] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf31:27784] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fa3cd407103]
+[elf31:27784] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fa3cd3c894b]
+[elf31:27784] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fa3cd3c7e74]
+[elf31:27784] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fa3cd407571]
+[elf31:27784] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fa3cd105dd5]
+[elf31:27784] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fa3cce2eead]
+[elf31:27784] *** End of error message ***
+[elf15:11958] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7feedd0aa5d0]
+[elf15:11958] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf15:11958] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7feedd3a4103]
+[elf15:11958] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7feedd36594b]
+[elf15:11958] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7feedd364e74]
+[elf15:11958] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7feedd3a4571]
+[elf15:11958] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7feedd0a2dd5]
+[elf15:11958] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7feedcdcbead]
+[elf15:11958] *** End of error message ***
+[elf11:31862] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fa9746305d0]
+[elf11:31862] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf11:31862] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fa97492a103]
+[elf11:31862] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fa9748eb94b]
+[elf11:31862] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fa9748eae74]
+[elf11:31862] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fa97492a571]
+[elf11:31862] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fa974628dd5]
+[elf11:31862] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fa974351ead]
+[elf11:31862] *** End of error message ***
+[elf29:16232] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f696bb935d0]
+[elf29:16232] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf29:16232] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f696be8d103]
+[elf29:16232] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f696be4e94b]
+[elf29:16232] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f696be4de74]
+[elf29:16232] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f696be8d571]
+[elf29:16232] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f696bb8bdd5]
+[elf29:16232] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f696b8b4ead]
+[elf29:16232] *** End of error message ***
+[elf11:31941] *** Process received signal ***
+[elf11:31941] Signal: Segmentation fault (11)
+[elf11:31941] Signal code: Address not mapped (1)
+[elf11:31941] Failing at address: 0x7f403b5e8cd0
+[elf18:14166] *** Process received signal ***
+[elf18:14166] Signal: Segmentation fault (11)
+[elf18:14166] Signal code: Invalid permissions (2)
+[elf18:14166] Failing at address: 0x7fe0c9382cd0
+[elf19:23243] *** Process received signal ***
+[elf19:23243] Signal: Segmentation fault (11)
+[elf19:23243] Signal code: Invalid permissions (2)
+[elf19:23243] Failing at address: 0x7fa3a63e5cd0
+[elf31:27816] *** Process received signal ***
+[elf31:27816] Signal: Segmentation fault (11)
+[elf31:27816] Signal code: Invalid permissions (2)
+[elf31:27816] Failing at address: 0x7f624e7b9cd0
+[elf24:45558] *** Process received signal ***
+[elf24:45558] Signal: Segmentation fault (11)
+[elf24:45558] Signal code: Invalid permissions (2)
+[elf24:45558] Failing at address: 0x7fbe0ccf3cd0
+[elf29:16263] *** Process received signal ***
+[elf29:16263] Signal: Segmentation fault (11)
+[elf29:16263] Signal code: Invalid permissions (2)
+[elf29:16263] Failing at address: 0x7f6a06ce0cd0
+[elf26:17308] *** Process received signal ***
+[elf26:17308] Signal: Segmentation fault (11)
+[elf26:17308] Signal code: Invalid permissions (2)
+[elf26:17308] Failing at address: 0x7f4e0d308cd0
+[elf15:11990] *** Process received signal ***
+[elf15:11990] Signal: Segmentation fault (11)
+[elf15:11990] Signal code: Invalid permissions (2)
+[elf15:11990] Failing at address: 0x7fb241973cd0
+srun: error: elf24: task 4: Segmentation fault
+srun: error: elf31: task 7: Segmentation fault
+srun: error: elf26: task 5: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf19: task 3: Segmentation fault
+srun: error: elf15: task 1: Segmentation fault
+srun: error: elf11: task 0: Segmentation fault
+[elf15:11990] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fb290d0b5d0]
+[elf15:11990] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf15:11990] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fb291005103]
+[elf15:11990] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fb290fc694b]
+[elf15:11990] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fb290fc5e74]
+[elf15:11990] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fb291005571]
+[elf15:11990] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fb290d03dd5]
+[elf15:11990] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fb290a2cead]
+[elf15:11990] *** End of error message ***
+[elf24:45558] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fbe5c0895d0]
+[elf24:45558] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf31:27816] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f629db565d0]
+[elf31:27816] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf24:45558] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fbe5c383103]
+[elf31:27816] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f629de50103]
+[elf24:45558] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fbe5c34494b]
+[elf31:27816] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f629de1194b]
+[elf24:45558] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fbe5c343e74]
+[elf31:27816] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f629de10e74]
+[elf24:45558] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fbe5c383571]
+[elf24:45558] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fbe5c081dd5]
+[elf31:27816] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f629de50571]
+[elf24:45558] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fbe5bdaaead]
+[elf24:45558] *** End of error message ***
+[elf31:27816] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f629db4edd5]
+[elf31:27816] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f629d877ead]
+[elf31:27816] *** End of error message ***
+[elf18:14166] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fe1187115d0]
+[elf18:14166] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf18:14166] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fe118a0b103]
+[elf19:23243] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fa3f577a5d0]
+[elf19:23243] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf19:23243] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fa3f5a74103]
+[elf19:23243] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fa3f5a3594b]
+[elf19:23243] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fa3f5a34e74]
+[elf19:23243] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fa3f5a74571]
+[elf19:23243] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fa3f5772dd5]
+[elf19:23243] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fa3f549bead]
+[elf18:14166] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fe1189cc94b]
+[elf19:23243] *** End of error message ***
+[elf18:14166] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fe1189cbe74]
+[elf18:14166] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fe118a0b571]
+[elf18:14166] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fe118709dd5]
+[elf18:14166] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fe118432ead]
+[elf18:14166] *** End of error message ***
+[elf26:17308] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f4e5c69d5d0]
+[elf26:17308] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf26:17308] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4e5c997103]
+[elf26:17308] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f4e5c95894b]
+[elf26:17308] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f4e5c957e74]
+[elf26:17308] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f4e5c997571]
+[elf26:17308] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f4e5c695dd5]
+[elf26:17308] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f4e5c3beead]
+[elf26:17308] *** End of error message ***
+[elf11:31941] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f408a97c5d0]
+[elf11:31941] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf11:31941] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f408ac76103]
+[elf11:31941] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f408ac3794b]
+[elf11:31941] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f408ac36e74]
+[elf11:31941] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f408ac76571]
+[elf11:31941] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f408a974dd5]
+[elf11:31941] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f408a69dead]
+[elf11:31941] *** End of error message ***
+srun: error: elf29: task 6: Segmentation fault
+[elf29:16263] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f6a560775d0]
+[elf29:16263] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf29:16263] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f6a56371103]
+[elf29:16263] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f6a5633294b]
+[elf29:16263] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f6a56331e74]
+[elf29:16263] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f6a56371571]
+[elf29:16263] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f6a5606fdd5]
+[elf29:16263] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f6a55d98ead]
+[elf29:16263] *** End of error message ***
+[elf11:32020] *** Process received signal ***
+[elf11:32020] Signal: Segmentation fault (11)
+[elf11:32020] Signal code: Invalid permissions (2)
+[elf11:32020] Failing at address: 0x7f46ecf12cd0
+[elf19:23274] *** Process received signal ***
+[elf19:23274] Signal: Segmentation fault (11)
+[elf19:23274] Signal code: Invalid permissions (2)
+[elf19:23274] Failing at address: 0x7f72c7d57cd0
+[elf18:14197] *** Process received signal ***
+[elf18:14197] Signal: Segmentation fault (11)
+[elf18:14197] Signal code: Invalid permissions (2)
+[elf18:14197] Failing at address: 0x7fd60ab1ccd0
+[elf15:12021] *** Process received signal ***
+[elf15:12021] Signal: Segmentation fault (11)
+[elf15:12021] Signal code: Invalid permissions (2)
+[elf15:12021] Failing at address: 0x7fb672504cd0
+[elf31:27847] *** Process received signal ***
+[elf31:27847] Signal: Segmentation fault (11)
+[elf31:27847] Signal code: Invalid permissions (2)
+[elf31:27847] Failing at address: 0x7f23728d3cd0
+[elf26:17339] *** Process received signal ***
+[elf26:17339] Signal: Segmentation fault (11)
+[elf26:17339] Signal code: Invalid permissions (2)
+[elf26:17339] Failing at address: 0x7f55566facd0
+[elf24:45589] *** Process received signal ***
+[elf24:45589] Signal: Segmentation fault (11)
+[elf24:45589] Signal code: Invalid permissions (2)
+[elf24:45589] Failing at address: 0x7f4fd3469cd0
+[elf29:16296] *** Process received signal ***
+[elf29:16296] Signal: Segmentation fault (11)
+[elf29:16296] Signal code: Invalid permissions (2)
+[elf29:16296] Failing at address: 0x7f6bd22a6cd0
+srun: error: elf11: task 0: Segmentation fault
+srun: error: elf31: task 7: Segmentation fault
+srun: error: elf26: task 5: Segmentation fault
+[elf31:27847] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f23c1c725d0]
+[elf31:27847] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf31:27847] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f23c1f6c103]
+[elf31:27847] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f23c1f2d94b]
+[elf31:27847] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f23c1f2ce74]
+[elf31:27847] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f23c1f6c571]
+[elf31:27847] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f23c1c6add5]
+[elf31:27847] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f23c1993ead]
+[elf31:27847] *** End of error message ***
+srun: error: elf18: task 2: Segmentation fault
+[elf26:17339] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f55a5a925d0]
+[elf26:17339] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf26:17339] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f55a5d8c103]
+[elf26:17339] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f55a5d4d94b]
+[elf26:17339] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f55a5d4ce74]
+[elf26:17339] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f55a5d8c571]
+[elf26:17339] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f55a5a8add5]
+[elf26:17339] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f55a57b3ead]
+[elf26:17339] *** End of error message ***
+[elf18:14197] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fd659ea75d0]
+[elf18:14197] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf18:14197] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fd65a1a1103]
+[elf18:14197] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fd65a16294b]
+[elf18:14197] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fd65a161e74]
+[elf18:14197] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fd65a1a1571]
+[elf18:14197] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fd659e9fdd5]
+[elf18:14197] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fd659bc8ead]
+[elf18:14197] *** End of error message ***
+srun: error: elf24: task 4: Segmentation fault
+srun: error: elf29: task 6: Segmentation fault
+[elf11:32020] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f473c2a95d0]
+[elf11:32020] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf11:32020] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f473c5a3103]
+[elf11:32020] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f473c56494b]
+[elf11:32020] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f473c563e74]
+[elf11:32020] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f473c5a3571]
+[elf11:32020] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f473c2a1dd5]
+[elf11:32020] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f473bfcaead]
+[elf11:32020] *** End of error message ***
+[elf19:23274] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f73170f85d0]
+[elf19:23274] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf19:23274] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f73173f2103]
+[elf19:23274] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f73173b394b]
+srun: error: elf15: task 1: Segmentation fault
+[elf19:23274] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f73173b2e74]
+[elf19:23274] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f73173f2571]
+[elf19:23274] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f73170f0dd5]
+[elf19:23274] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f7316e19ead]
+[elf19:23274] *** End of error message ***
+[elf24:45589] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f50228005d0]
+[elf24:45589] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf24:45589] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f5022afa103]
+[elf24:45589] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f5022abb94b]
+[elf24:45589] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f5022abae74]
+[elf24:45589] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f5022afa571]
+[elf24:45589] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f50227f8dd5]
+[elf24:45589] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f5022521ead]
+[elf24:45589] *** End of error message ***
+[elf29:16296] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f6c216395d0]
+[elf29:16296] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf29:16296] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f6c21933103]
+[elf29:16296] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f6c218f494b]
+[elf29:16296] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f6c218f3e74]
+[elf29:16296] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f6c21933571]
+[elf29:16296] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f6c21631dd5]
+[elf29:16296] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f6c2135aead]
+[elf29:16296] *** End of error message ***
+srun: error: elf19: task 3: Segmentation fault
+[elf15:12021] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fb6c18995d0]
+[elf15:12021] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf15:12021] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fb6c1b93103]
+[elf15:12021] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fb6c1b5494b]
+[elf15:12021] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fb6c1b53e74]
+[elf15:12021] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fb6c1b93571]
+[elf15:12021] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fb6c1891dd5]
+[elf15:12021] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fb6c15baead]
+[elf15:12021] *** End of error message ***
+[elf11:32100] *** Process received signal ***
+[elf11:32100] Signal: Segmentation fault (11)
+[elf11:32100] Signal code: Invalid permissions (2)
+[elf11:32100] Failing at address: 0x7f68826facd0
+[elf15:12053] *** Process received signal ***
+[elf15:12053] Signal: Segmentation fault (11)
+[elf15:12053] Signal code: Invalid permissions (2)
+[elf15:12053] Failing at address: 0x7f8c91a63cd0
+[elf18:14229] *** Process received signal ***
+[elf18:14229] Signal: Segmentation fault (11)
+[elf18:14229] Signal code: Invalid permissions (2)
+[elf18:14229] Failing at address: 0x7fcef2a4dcd0
+[elf19:23306] *** Process received signal ***
+[elf19:23306] Signal: Segmentation fault (11)
+[elf19:23306] Signal code: Invalid permissions (2)
+[elf19:23306] Failing at address: 0x7f6847a5acd0
+[elf26:17371] *** Process received signal ***
+[elf26:17371] Signal: Segmentation fault (11)
+[elf26:17371] Signal code: Invalid permissions (2)
+[elf26:17371] Failing at address: 0x7fc734060cd0
+[elf24:45620] *** Process received signal ***
+[elf24:45620] Signal: Segmentation fault (11)
+[elf24:45620] Signal code: Invalid permissions (2)
+[elf24:45620] Failing at address: 0x7f855b4aacd0
+[elf31:27878] *** Process received signal ***
+[elf31:27878] Signal: Segmentation fault (11)
+[elf31:27878] Signal code: Invalid permissions (2)
+[elf31:27878] Failing at address: 0x7f4eff2d3cd0
+[elf29:16327] *** Process received signal ***
+[elf29:16327] Signal: Segmentation fault (11)
+[elf29:16327] Signal code: Invalid permissions (2)
+[elf29:16327] Failing at address: 0x7fcf98c7ccd0
+srun: error: elf19: task 3: Segmentation fault
+srun: error: elf29: task 6: Segmentation fault
+srun: error: elf18: task 2: Segmentation fault
+srun: error: elf11: task 0: Segmentation fault
+[elf29:16327] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fcfe80145d0]
+[elf29:16327] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf29:16327] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fcfe830e103]
+[elf29:16327] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fcfe82cf94b]
+[elf29:16327] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fcfe82cee74]
+[elf29:16327] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fcfe830e571]
+[elf29:16327] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fcfe800cdd5]
+[elf29:16327] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fcfe7d35ead]
+[elf29:16327] *** End of error message ***
+[elf19:23306] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f6896df05d0]
+[elf19:23306] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf19:23306] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f68970ea103]
+[elf19:23306] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f68970ab94b]
+[elf19:23306] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f68970aae74]
+[elf19:23306] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f68970ea571]
+[elf19:23306] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f6896de8dd5]
+[elf19:23306] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f6896b11ead]
+[elf19:23306] *** End of error message ***
+[elf18:14229] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fcf41dd75d0]
+[elf18:14229] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf18:14229] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fcf420d1103]
+[elf18:14229] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fcf4209294b]
+[elf18:14229] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fcf42091e74]
+[elf18:14229] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fcf420d1571]
+[elf18:14229] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fcf41dcfdd5]
+[elf18:14229] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fcf41af8ead]
+[elf18:14229] *** End of error message ***
+srun: error: elf26: task 5: Segmentation fault
+[elf26:17371] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fc7833fb5d0]
+[elf26:17371] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf26:17371] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc7836f5103]
+[elf26:17371] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc7836b694b]
+[elf26:17371] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc7836b5e74]
+[elf26:17371] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc7836f5571]
+[elf26:17371] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc7833f3dd5]
+[elf26:17371] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc78311cead]
+[elf26:17371] *** End of error message ***
+[elf11:32100] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f68d1a8f5d0]
+[elf11:32100] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf11:32100] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f68d1d89103]
+[elf11:32100] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f68d1d4a94b]
+[elf11:32100] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f68d1d49e74]
+[elf11:32100] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f68d1d89571]
+[elf11:32100] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f68d1a87dd5]
+[elf11:32100] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f68d17b0ead]
+[elf11:32100] *** End of error message ***
+srun: error: elf15: task 1: Segmentation fault
+[elf15:12053] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f8ce0df95d0]
+[elf15:12053] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf15:12053] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f8ce10f3103]
+[elf15:12053] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f8ce10b494b]
+[elf15:12053] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f8ce10b3e74]
+[elf15:12053] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f8ce10f3571]
+[elf15:12053] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f8ce0df1dd5]
+[elf15:12053] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f8ce0b1aead]
+[elf15:12053] *** End of error message ***
+[elf24:45620] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f85aa8415d0]
+[elf24:45620] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf31:27878] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f4f4e6765d0]
+[elf31:27878] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf31:27878] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4f4e970103]
+[elf31:27878] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f4f4e93194b]
+[elf31:27878] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f4f4e930e74]
+[elf31:27878] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f4f4e970571]
+[elf31:27878] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f4f4e66edd5]
+[elf31:27878] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f4f4e397ead]
+[elf24:45620] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f85aab3b103]
+[elf31:27878] *** End of error message ***
+[elf24:45620] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f85aaafc94b]
+[elf24:45620] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f85aaafbe74]
+[elf24:45620] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f85aab3b571]
+[elf24:45620] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f85aa839dd5]
+[elf24:45620] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f85aa562ead]
+[elf24:45620] *** End of error message ***
+srun: error: elf31: task 7: Segmentation fault
+srun: error: elf24: task 4: Segmentation fault
+[elf11:32178] *** Process received signal ***
+[elf11:32178] Signal: Segmentation fault (11)
+[elf11:32178] Signal code: Invalid permissions (2)
+[elf11:32178] Failing at address: 0x7f7908133cd0
+[elf15:12085] *** Process received signal ***
+[elf15:12085] Signal: Segmentation fault (11)
+[elf15:12085] Signal code: Invalid permissions (2)
+[elf15:12085] Failing at address: 0x7fc8ca827cd0
+[elf26:17402] *** Process received signal ***
+[elf26:17402] Signal: Segmentation fault (11)
+[elf26:17402] Signal code: Invalid permissions (2)
+[elf26:17402] Failing at address: 0x7fee9b3dfcd0
+[elf18:14260] *** Process received signal ***
+[elf18:14260] Signal: Segmentation fault (11)
+[elf18:14260] Signal code: Invalid permissions (2)
+[elf18:14260] Failing at address: 0x7ffaafb5dcd0
+[elf31:27909] *** Process received signal ***
+[elf31:27909] Signal: Segmentation fault (11)
+[elf31:27909] Signal code: Invalid permissions (2)
+[elf31:27909] Failing at address: 0x7fbc01d2bcd0
+[elf24:45652] *** Process received signal ***
+[elf24:45652] Signal: Segmentation fault (11)
+[elf24:45652] Signal code: Invalid permissions (2)
+[elf24:45652] Failing at address: 0x7f99bc800cd0
+[elf19:23337] *** Process received signal ***
+[elf19:23337] Signal: Segmentation fault (11)
+[elf19:23337] Signal code: Invalid permissions (2)
+[elf19:23337] Failing at address: 0x7fc81ccfecd0
+[elf29:16358] *** Process received signal ***
+[elf29:16358] Signal: Segmentation fault (11)
+[elf29:16358] Signal code: Invalid permissions (2)
+[elf29:16358] Failing at address: 0x7fc54040dcd0
+srun: error: elf19: task 3: Segmentation fault
+srun: error: elf24: task 4: Segmentation fault
+srun: error: elf15: task 1: Segmentation fault
+srun: error: elf29: task 6: Segmentation fault
+srun: error: elf26: task 5: Segmentation fault
+srun: error: elf31: task 7: Segmentation fault
+srun: error: elf11: task 0: Segmentation fault
+[elf31:27909] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fbc510ce5d0]
+[elf31:27909] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf31:27909] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fbc513c8103]
+[elf31:27909] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fbc5138994b]
+[elf31:27909] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fbc51388e74]
+[elf31:27909] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fbc513c8571]
+[elf31:27909] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fbc510c6dd5]
+[elf31:27909] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fbc50defead]
+[elf31:27909] *** End of error message ***
+[elf24:45652] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f9a0bb935d0]
+[elf24:45652] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf24:45652] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f9a0be8d103]
+[elf24:45652] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f9a0be4e94b]
+[elf24:45652] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f9a0be4de74]
+[elf24:45652] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f9a0be8d571]
+[elf24:45652] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f9a0bb8bdd5]
+[elf24:45652] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f9a0b8b4ead]
+[elf29:16358] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fc58f7ad5d0]
+[elf29:16358] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf29:16358] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc58faa7103]
+[elf29:16358] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc58fa6894b]
+[elf29:16358] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc58fa67e74]
+[elf29:16358] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc58faa7571]
+[elf29:16358] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc58f7a5dd5]
+[elf29:16358] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc58f4ceead]
+[elf19:23337] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fc86c0965d0]
+[elf24:45652] *** End of error message ***
+[elf29:16358] *** End of error message ***
+[elf19:23337] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf19:23337] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc86c390103]
+[elf15:12085] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fc919bbc5d0]
+[elf15:12085] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf19:23337] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc86c35194b]
+[elf15:12085] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fc919eb6103]
+[elf19:23337] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc86c350e74]
+[elf15:12085] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7fc919e7794b]
+[elf19:23337] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc86c390571]
+[elf15:12085] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7fc919e76e74]
+[elf19:23337] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc86c08edd5]
+[elf15:12085] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7fc919eb6571]
+[elf15:12085] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7fc919bb4dd5]
+[elf19:23337] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc86bdb7ead]
+[elf19:23337] *** End of error message ***
+[elf15:12085] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7fc9198ddead]
+[elf15:12085] *** End of error message ***
+[elf26:17402] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7feeea7765d0]
+[elf26:17402] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf26:17402] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7feeeaa70103]
+[elf26:17402] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7feeeaa3194b]
+[elf26:17402] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7feeeaa30e74]
+[elf26:17402] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7feeeaa70571]
+[elf26:17402] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7feeea76edd5]
+[elf26:17402] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7feeea497ead]
+[elf26:17402] *** End of error message ***
+[elf11:32178] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f79574c55d0]
+[elf11:32178] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf11:32178] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f79577bf103]
+[elf11:32178] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f795778094b]
+[elf11:32178] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f795777fe74]
+[elf11:32178] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f79577bf571]
+[elf11:32178] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f79574bddd5]
+[elf11:32178] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f79571e6ead]
+[elf11:32178] *** End of error message ***
+[elf18:14260] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7ffafeee85d0]
+[elf18:14260] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf18:14260] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7ffaff1e2103]
+[elf18:14260] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7ffaff1a394b]
+[elf18:14260] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7ffaff1a2e74]
+[elf18:14260] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7ffaff1e2571]
+[elf18:14260] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7ffafeee0dd5]
+[elf18:14260] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7ffafec09ead]
+[elf18:14260] *** End of error message ***
+srun: error: elf18: task 2: Segmentation fault

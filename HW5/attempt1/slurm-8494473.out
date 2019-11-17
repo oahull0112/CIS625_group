@@ -1,0 +1,31 @@
+[elf81:12919] *** Process received signal ***
+[elf81:12919] Signal: Segmentation fault (11)
+[elf81:12919] Signal code: Address not mapped (1)
+[elf81:12919] Failing at address: 0x7f15f5696010
+srun: error: elf81: task 0: Segmentation fault
+[elf81:12968] *** Process received signal ***
+[elf81:12968] Signal: Segmentation fault (11)
+[elf81:12968] Signal code: Address not mapped (1)
+[elf81:12968] Failing at address: 0x7f8f7e679010
+srun: error: elf81: task 0: Segmentation fault
+[elf81:12999] *** Process received signal ***
+srun: error: elf81: task 0: Segmentation fault
+[elf81:13030] *** Process received signal ***
+[elf81:13030] Signal: Segmentation fault (11)
+[elf81:13030] Signal code: Address not mapped (1)
+[elf81:13030] Failing at address: 0x7f89835bd010
+srun: error: elf81: task 0: Segmentation fault
+[elf81:13060] *** Process received signal ***
+[elf81:13060] Signal: Segmentation fault (11)
+[elf81:13060] Signal code: Address not mapped (1)
+[elf81:13060] Failing at address: 0x7f1e79612010
+[elf81:13060] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7f20177415d0]
+[elf81:13060] [ 1] /homes/tmoddelmog/HW4/CIS625_group/HW5/./hw5_fix_v2[0x402cfa]
+[elf81:13060] [ 2] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f2017a3b103]
+[elf81:13060] [ 3] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xae94b)[0x7f20179fc94b]
+[elf81:13060] [ 4] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xade74)[0x7f20179fbe74]
+[elf81:13060] [ 5] /opt/software/software/ifort/2019.1.144-GCC-8.2.0-2.31.1/compilers_and_libraries_2019.1.144/linux/compiler/lib/intel64/libiomp5.so(+0xed571)[0x7f2017a3b571]
+[elf81:13060] [ 6] /lib64/libpthread.so.0(+0x7dd5)[0x7f2017739dd5]
+[elf81:13060] [ 7] /lib64/libc.so.6(clone+0x6d)[0x7f2017462ead]
+[elf81:13060] *** End of error message ***
+srun: error: elf81: task 0: Segmentation fault

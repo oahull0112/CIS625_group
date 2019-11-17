@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
     receiveBuff = (double *) malloc(numTasks * sizeof(double));
     numbers = (int *) malloc(num_N * sizeof(int));
     srand(time(0) + rank);
-#pragma omp parallel private(myThreadID, myStart, myEnd)
+    #pragma omp parallel private(myThreadID, myStart, myEnd, i)
     {
       myThreadID = omp_get_thread_num();
       myStart = (num_N * myThreadID / numThreads);
@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
     mean = mean / num_N_Global;
 
     // each task calculates their partial sum
-    #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum)
+    #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum, i)
     {
         myThreadID = omp_get_thread_num();
         myStart = (num_N * myThreadID / numThreads);
