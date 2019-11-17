@@ -28,7 +28,10 @@ int main(int argc, char *argv[])
         myStart,            
         myEnd,              
         remainder,
-        i;
+        lastThread,
+        i,
+        jj,
+        ii;
     double stdDev,
            mean,
            sum = 0,
@@ -78,18 +81,19 @@ int main(int argc, char *argv[])
     receiveBuff = (double *) malloc(numTasks * sizeof(double));
     numbers = (int *) malloc(num_N * sizeof(int));
     srand(time(0) + rank);
-    #pragma omp parallel private(myThreadID, myStart, myEnd, i)
+    #pragma omp parallel private(myThreadID, myStart, myEnd, ii, lastThread)
     {
       myThreadID = omp_get_thread_num();
       myStart = (num_N * myThreadID / numThreads);
       myEnd = myStart + (num_N / numThreads);
-      if (myThreadID == (numThreads - 1))
+      lastThread = numThreads - 1;
+      if (myThreadID == lastThread)
       {
          myEnd = num_N;
       }
-      for (i = myStart; i < myEnd; i++)
+      for (ii = myStart; ii < myEnd; ii++)
       {
-          numbers[i] = rand() % 100 + 1;  // generate a number between 0 and 100
+          numbers[ii] = rand() % 100 + 1;  // generate a number between 0 and 100
           //printf("Number %d: %d\n", i, numbers[i]);
       }
     }
@@ -113,19 +117,20 @@ int main(int argc, char *argv[])
     mean = mean / num_N_Global;
 
     // each task calculates their partial sum
-    #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum, i)
+    #pragma omp parallel private(myThreadID, myStart, myEnd, myPartialSum, jj, lastThread)
     {
         myThreadID = omp_get_thread_num();
         myStart = (num_N * myThreadID / numThreads);
         myEnd = myStart + (num_N / numThreads);
-        if (myThreadID == (numThreads - 1))
+        lastThread = numThreads - 1;
+        if (myThreadID == lastThread)
         {
             myEnd = num_N;
         }
 
-        for (i = myStart; i < myEnd; i++)
+        for (jj = myStart; jj < myEnd; jj++)
         {
-            myPartialSum += (numbers[i] - mean) * (numbers[i] - mean);
+            myPartialSum += (numbers[jj] - mean) * (numbers[jj] - mean);
         }
         #pragma omp critical
         {
